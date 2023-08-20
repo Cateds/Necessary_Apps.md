@@ -70,7 +70,7 @@
 
 **（建议看完utools和wox的介绍再去下载，因为他们都有everything插件功能）**
 
-在安装完软件之后，记得把自己用不到的文件夹（比如 Windows，AppData，ProgramData，ProgramFiles，Programfiles(x86) 加入搜索黑名单）
+在安装完软件之后，记得把自己用不到的文件夹（比如 Windows，AppData，ProgramData，ProgramFiles，Programfiles(x86)） 加入搜索黑名单
 
 ### 快速启动
 
