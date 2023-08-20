@@ -26,7 +26,7 @@
 
 - **官网链接：[Bandizip](http://www.bandisoft.com/bandizip/dl/)**
 - **适用平台：Windows, MacOS**
-- **详细介绍：[[Bandzip—让你爱不释手的解压缩软件 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/65414066)](https://zhuanlan.zhihu.com/p/472315250)**
+- **详细介绍：[[Bandzip-让你爱不释手的解压缩软件](https://zhuanlan.zhihu.com/p/65414066)](https://zhuanlan.zhihu.com/p/472315250)**
 
 我本来是想大力夸赞bandizip的无私的，直到几年前大伙发现在7.0版本开始后bandisoft在bandizip的首页添加了广告（具体参考[别再推荐 bandzip 了！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/111170689)）。虽然后来体验一番后发现广告只出现在软件首页，而我一般使用都是只有解压窗口弹出来，具体使用没什么影响，但是心里有点膈应。
 
@@ -42,7 +42,7 @@
 
 其次就是它的智能解压很符合我的使用习惯，用起来比较舒服。它唯一的问题是配置起来比较繁琐，所以我把我自己的设置导出了一份：
 
-[Bandizip Settings - 2023年8月21日.reg](./README.files/Bandizip Settings - 2023年8月21日.reg)
+<a href="./README.files/Bandizip Settings - 2023年8月21日.reg">Bandizip Settings.reg</a>
 
 先安装好bandizip（好像得是7.0版本往上），然后关掉程序，双击这个注册表文件，选择写入后再打开bandizip的主页，如果主题变成我设定的灰色就代表设置安装成功了
 
@@ -138,13 +138,13 @@ Powertoys可以直接在微软应用商店下载，里面有很多功能，但�
 
 如果是国产的安卓（及其类似物）品牌，可以去下载手机品牌对应的电脑软件，
 
-比如小米的**[小米妙享](https://www.bilibili.com/video/BV1qD4y1B7YJ)**（需要在b站上找机型破解）<img src="./README.assets/image-20230821011243799.png" alt="image-20230821011243799" style="zoom: 25%;" />
+比如小米的 **[小米妙享](https://www.bilibili.com/video/BV1qD4y1B7YJ)**（需要在b站上找机型破解）<img src="./README.assets/image-20230821011243799.png" alt="image-20230821011243799" style="zoom: 25%;" />
 
-华为的**[华为电脑管家](https://www.bilibili.com/video/BV1S14y1H7hd)**（需要在b站上找机型破解）<img src="./README.assets/image-20230821011337701.png" alt="image-20230821011337701" style="zoom:25%;" />
+华为的 **[华为电脑管家](https://www.bilibili.com/video/BV1S14y1H7hd)**（需要在b站上找机型破解）<img src="./README.assets/image-20230821011337701.png" alt="image-20230821011337701" style="zoom:25%;" />
 
-oppo的**[跨屏互联 (oppo.com)](https://connect.oppo.com/zh-CN)**<img src="./README.assets/image-20230821011747525.png" alt="image-20230821011747525" style="zoom:25%;" />
+oppo的 **[跨屏互联 (oppo.com)](https://connect.oppo.com/zh-CN)**<img src="./README.assets/image-20230821011747525.png" alt="image-20230821011747525" style="zoom:25%;" />
 
-vivo的**[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README.assets/image-20230821012253302.png" alt="image-20230821012253302" style="zoom:25%;" />
+vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README.assets/image-20230821012253302.png" alt="image-20230821012253302" style="zoom:25%;" />
 
 荣耀可以用华为的，**magic4系列往后的荣耀手机** 可以用**Windows自带的手机连接**<img src="./README.assets/image-20230821013322024.png" alt="image-20230821013322024" style="zoom:25%;" />
 
@@ -168,7 +168,7 @@ vivo的**[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README.
 
 长这样↓
 
-<img src="./../../downloads/new%20ducument.jpg" alt="new ducument" style="zoom:33%;" />
+<img src="./README.assets/Screenshot_2023-08-21-06-03-21-806_com.miui.home-.jpg" alt="new ducument" style="zoom:33%;" />
 
 ### 2. 给别人传输一些文件
 
@@ -192,7 +192,7 @@ vivo的**[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README.
 
 #### 互传联盟/华为分享/Airdrop
 
-参考***Part-2-1.***的内容
+参考 ***Part-2-1.*** 的内容
 
 ### 3. 从网上下载文件
 
@@ -548,29 +548,51 @@ apt-get install gcc
 
 登录完了就可以开始装插件了，这里推荐一些我常用的插件。
 
-<img src="./README.assets/image-20230818232523109.png" alt="image-20230818232523109" style="zoom:33%;" />简体中文插件，字面意思，把（一部分的）界面语言切换成中文
+<img src="./README.assets/image-20230818232523109.png" alt="image-20230818232523109" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818232606098.png" alt="image-20230818232606098" style="zoom:33%;" />C/C++的拓展包，含C/C++，C/C++ Themes，CMake Tools三个插件，基本上必装
+简体中文插件，字面意思，把（一部分的）界面语言切换成中文
 
-<img src="./README.assets/image-20230818232730315.png" alt="image-20230818232730315" style="zoom:33%;" />C/C++的代码模板，提供C/C++插件没提供的一些代码模板
+<img src="./README.assets/image-20230818232606098.png" alt="image-20230818232606098" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818232852422.png" alt="image-20230818232852422" style="zoom:33%;" />git版本可视化插件，建议先安着，总会用到的
+C/C++的拓展包，含C/C++，C/C++ Themes，CMake Tools三个插件，基本上必装
 
-<img src="./README.assets/image-20230818232929963.png" alt="image-20230818232929963" style="zoom:33%;" />远程召唤一个朋友来替你改代码专用插件Live Share
+<img src="./README.assets/image-20230818232730315.png" alt="image-20230818232730315" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818233013857.png" alt="image-20230818233013857" style="zoom:33%;" />括号配对着色，可以增强代码可读性
+C/C++的代码模板，提供C/C++插件没提供的一些代码模板
 
-<img src="./README.assets/image-20230818233053375.png" alt="image-20230818233053375" style="zoom:33%;" />VSCode上很多人喜欢的第三方主题（为什么啊？）
+<img src="./README.assets/image-20230818232852422.png" alt="image-20230818232852422" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818233132963.png" alt="image-20230818233132963" style="zoom:33%;" />用Tab键跳出小括号、中括号、大括号、单引号、双引号等成对符号。这个得看个人输入习惯再说用不用（但是我的个人习惯来说这玩意神中神，打败半高方向键的最好方法是放弃半高方向键！）
+git版本可视化插件，建议先安着，总会用到的
 
-<img src="./README.assets/image-20230818233538379.png" alt="image-20230818233538379" style="zoom:33%;" />（如果）用VSCode写Markdown时比较好用的几个插件，但是不如直接用Typora或者别的笔记软件
+<img src="./README.assets/image-20230818232929963.png" alt="image-20230818232929963" style="zoom:33%;" />
+
+远程召唤一个朋友来替你改代码专用插件Live Share
+
+<img src="./README.assets/image-20230818233013857.png" alt="image-20230818233013857" style="zoom:33%;" />
+
+括号配对着色，可以增强代码可读性
+
+<img src="./README.assets/image-20230818233053375.png" alt="image-20230818233053375" style="zoom:33%;" />
+
+VSCode上很多人喜欢的第三方主题（为什么啊？）
+
+<img src="./README.assets/image-20230818233132963.png" alt="image-20230818233132963" style="zoom:33%;" />
+
+用Tab键跳出小括号、中括号、大括号、单引号、双引号等成对符号。这个得看个人输入习惯再说用不用（但是我的个人习惯来说这玩意神中神，打败半高方向键的最好方法是放弃半高方向键！）
+
+<img src="./README.assets/image-20230818233538379.png" alt="image-20230818233538379" style="zoom:33%;" />
+
+（如果）用VSCode写Markdown时比较好用的几个插件，但是不如直接用Typora或者别的笔记软件
 
 需要注意的是：
 
-<img src="./README.assets/image-20230818234105185.png" alt="image-20230818234105185" style="zoom:33%;" />如果你安装了Code Runner，设置里的这三个选项最好打开。
+<img src="./README.assets/image-20230818234105185.png" alt="image-20230818234105185" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818234422384.png" alt="image-20230818234422384" style="zoom:33%;" />然后就是依照个人需求，看要不要打开VSCode的自动保存功能
+如果你安装了Code Runner，设置里的这三个选项最好打开。
+
+<img src="./README.assets/image-20230818234422384.png" alt="image-20230818234422384" style="zoom:33%;" />
+
+然后就是依照个人需求，看要不要打开VSCode的自动保存功能
 
 #### 其他编辑器推荐
 
@@ -611,7 +633,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 然后，在下载使用之前，来看看这个
 
 - [请立即替换掉反华病毒软件Notepad++_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1dY411D7zW/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
-- [【辟谣】Notepad++真的是反华病毒软件吗？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jT411o7AR/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
+- [辟谣】Notepad++真的是反华病毒软件吗？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jT411o7AR/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
 
 简单来讲，这个作者脑子出了一点问题，导致他在GNU开源协议的基础上搞政治拉踩恶心人，接下来用不用见仁见智
 
@@ -630,10 +652,3 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 - **适用平台：Windows**
 
 没错，我说的就是Windows自带的记事本。不然我给人推荐我自己都不会的vim吗难道
-
-
-
-
-
-
-
