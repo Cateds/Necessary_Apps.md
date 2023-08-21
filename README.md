@@ -88,17 +88,29 @@
 
 介绍几个我比较喜欢这个软件的地方：
 
-<img src="./README.assets/image-20230821042956526.png" alt="image-20230821042956526" style="zoom: 25%;" />和电脑系统主题自适应的配色和自带的毛玻璃效果
+<img src="./README.assets/image-20230821042956526.png" alt="image-20230821042956526" style="zoom: 25%;" />
 
-<img src="./README.assets/image-20230821043301167.png" alt="image-20230821043301167" style="zoom:25%;" />对应的白色主题
+和电脑系统主题自适应的配色和自带的毛玻璃效果
 
-<img src="./README.assets/image-20230821043136636.png" alt="image-20230821043136636" style="zoom:25%;" />也有毛玻璃感更强的主题，总结来说就是比较好看
+<img src="./README.assets/image-20230821043301167.png" alt="image-20230821043301167" style="zoom:25%;" />
 
-<img src="./README.assets/image-20230821043435101.png" alt="image-20230821043435101" style="zoom:25%;" />特有的快速卸载应用插件
+对应的白色主题
 
-<img src="./README.assets/image-20230821043518299.png" alt="image-20230821043518299" style="zoom:25%;" />Steam游戏快速启动插件（这个utools也有）
+<img src="./README.assets/image-20230821043136636.png" alt="image-20230821043136636" style="zoom:25%;" />
 
-<img src="./README.assets/image-20230821043606285.png" alt="image-20230821043606285" style="zoom:50%;" />以及强迫症最喜欢的每次开启自动回中
+也有毛玻璃感更强的主题，总结来说就是比较好看
+
+<img src="./README.assets/image-20230821043435101.png" alt="image-20230821043435101" style="zoom:25%;" />
+
+特有的快速卸载应用插件
+
+<img src="./README.assets/image-20230821043518299.png" alt="image-20230821043518299" style="zoom:25%;" />
+
+Steam游戏快速启动插件（这个utools也有）
+
+<img src="./README.assets/image-20230821043606285.png" alt="image-20230821043606285" style="zoom:50%;" />
+
+以及强迫症最喜欢的每次开启自动回中
 
 #### Utools
 
