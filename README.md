@@ -30,9 +30,7 @@
 
 我本来是想大力夸赞bandizip的无私的，直到几年前大伙发现在7.0版本开始后bandisoft在bandizip的首页添加了广告（具体参考[别再推荐 bandzip 了！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/111170689)）。虽然后来体验一番后发现广告只出现在软件首页，而我一般使用都是只有解压窗口弹出来，具体使用没什么影响，但是心里有点膈应。
 
-广告长这个样子（只有这里有广告）：
-
-<img src="./README.assets/image-20230821050108475.png" alt="image-20230821050108475" style="zoom:25%;" />
+![image-20230821050108475](./README.assets/image-20230821050108475.png "广告长这个样子（只有这里有广告）")
 
 为什么顶着广告还要推荐bandizip呢？因为它适配的win11的右键菜单：
 
@@ -223,6 +221,10 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 支持https链接下载，磁链下载，迅雷链接下载，种子文件下载，断点续传，功能相对完善
 
+**2023-8-26补充：** 如果想用motrix接管所有浏览器下载的话，Microsoft Edge用户请选择微软插件商店里的[Aria2-Explorer](https://microsoftedge.microsoft.com/addons/detail/aria2-explorer/jjfgljkjddpcpfapejfkelkbjbehagbh?hl=zh-CN)插件，或者其他的Aria2插件。
+
+配置教程：[Aria2-Explorer - 知乎](https://zhuanlan.zhihu.com/p/387408041)
+
 ##### IDM
 
 <img src="./README.assets/image-20230821035937238.png" alt="image-20230821035937238" style="zoom:25%;" />
@@ -331,7 +333,7 @@ python hw.py
 
 这里陈列一下市面上比较常用的几款IDE（因为大部分学校都是学C或者Python，很少有Java起步的，所以这边主要介绍C和Python的IDE）
 
-#### [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/)
+#### **[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/)**
 
 <img src="./README.assets/image-20230821014148953.png" alt="image-20230821014148953" style="zoom:25%;" />
 
@@ -402,6 +404,8 @@ MacOS专用， 苹果亲手操刀，后面的留给果粉去吹，毕竟没怎�
 
 在iOS开发和swift变成方面有专攻
 
+苹果用户可以直接在Mac端的App Store里下载
+
 #### **[Code::Blocks](https://www.codeblocks.org/)**
 
 <img src="./README.assets/image-20230821030313716.png" alt="image-20230821030313716" style="zoom:25%;" />
@@ -425,6 +429,19 @@ MacOS专用， 苹果亲手操刀，后面的留给果粉去吹，毕竟没怎�
 （感觉已经说过很多次了）老牌经典IDE，有可能会在你的教科书上出现
 
 ~~总感觉我认识Eclipse这个词还是因为"Eclipse first, the rest nowhere."~~
+
+#### **[Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)**
+
+![Alt text](README.assets/image.png)
+
+- **适用语言: C, C++**
+- **适用平台: Windows**
+
+很老牌的编辑器，有多老呢，上一次提交更新还是2016年
+
+学校需要就用，不需要还是别碰
+
+[一百个你不应该继续用Dev C++的理由 - 知乎](https://blog.csdn.net/qq_40688707/article/details/81137667)
 
 ### 安装你的编译器
 
@@ -664,3 +681,90 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 - **适用平台：Windows**
 
 没错，我说的就是Windows自带的记事本。不然我给人推荐我自己都不会的vim吗难道
+
+## Part-4 系统功能优化加强
+
+### 额外功能
+
+#### **Powertoys**
+
+![Alt text](README.assets/image-1.png)
+
+- **开发公司：Microsoft Corp.**
+- **适用平台：Windows**
+- **下载方式：微软应用商店**
+
+微软官方开发的power命名的软件工具，里面有一些你可能会用到的内容，比如
+
+![快捷键指南](README.assets/image-1-2.png)
+
+👆你可能会需要的Windows快捷键指南
+
+![文本提取器](README.assets/image-1-1.png)
+
+![网课关闭摄像头](README.assets/image-2-1.png)
+
+👆这个适合在网课时候用，可惜现在没网课了
+
+![批量重命名](README.assets/image-3-1.png)
+
+![始终置顶](README.assets/image-4-1.png)
+
+可以考虑下一个，给自己增加一点电脑使用需求
+
+### 功能优化
+
+#### **Geek**
+
+![Alt text](README.assets/image-geek.png)
+
+- **官网链接：[Geek Uninstaller](http://www.geekuninstaller.com/)**
+- **适用平台：Windows**
+- **详细介绍：[卸载神器 | Geek Uninstaller - 知乎](https://zhuanlan.zhihu.com/p/119458886)**
+
+如果担心注册表或者文件夹残留的话可以用geek来卸载对应软件
+
+需要注意的是软件只有Portable（也就是免安装）版本，想要用utools或者wox快速打开的话需要把快捷方式加入到Windows启动菜单
+
+**教程就在本节后面一点**
+#### **Wox的Quick Uninstaller插件**
+
+如果你选择使用Wox，那么安装方法很简单：在Wox的输入框里输入
+
+```
+wpm install quick uninstaller
+```
+
+有了这个插件的好处在于。如果用的是Windows默认的卸载方式，偶尔会跳转到控制面板再找一次你要卸载的软件；但是有了quick uninstaller，你就只用
+
+![uninstaller](README.assets/unin%20visual%20studio.png)
+
+一步到位
+
+同理，可以用`wpm`插件安装wox官网上的各种插件，我个人最推荐的还是`steam`、`Quick Uninstaller`和`有道翻译`
+### 把免安装软件加入启动菜单
+
+我们先把好处说了吧：加入开始菜单后你可以从开始菜单，utools或者wox里快速启动这个软件
+
+---
+
+首先，我们先要知道，你的开始菜单本质是这个文件夹里的快捷方式
+
+(虽然看起来比较抽象，但是你直接复制在文件管理器的陆经理里就能跳转)
+
+```
+%ProgramData%\Microsoft\Windows\Start Menu\Programs
+```
+
+或
+
+```
+%AppData%\Microsoft\Windows\Start Menu\Programs
+```
+
+所以，你先把你需要用的免安装软件放在一个比较顺眼的位置
+
+然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的alt键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
+
+👆顺带一提，如果不按住修饰键就是移动，按住alt就是创建快捷方式，按住ctrl就是复制
+
