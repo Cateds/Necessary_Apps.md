@@ -623,6 +623,16 @@ VSCode上很多人喜欢的第三方主题（为什么啊？）
 
 然后就是依照个人需求，看要不要打开VSCode的自动保存功能
 
+![markdown plugin setting](README.assets/vscode-md-plugin.png)
+
+再然后就是下载了Markdown相关插件的话打开这个选项可以自动在旁边打开文件的渲染结果预览，就像这样👇
+
+![md plugin preview](README.assets/vscode-md-plugin-2.png)
+
+如果你不想开，记住手动唤起预览的快捷键是Ctrl+Shift+V，然后可以用vscode自带的分屏达到同样的效果
+
+我的建议是，如果可以的话，还是记忆一下常用的快捷键，会很大程度的提高电脑的使用效率
+
 #### 其他编辑器推荐
 
 ##### **[Sunsetting Atom](https://github.blog/2022-06-08-sunsetting-atom/)**
@@ -712,6 +722,21 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 可以考虑下一个，给自己增加一点电脑使用需求
 
+#### Quicklook
+
+![Alt text](README.assets/quicklook.png)
+
+- **开发团队：Paddy Xu**
+- **适用平台：Windows**
+- **下载方式：微软应用商店**
+
+主要功能是快速预览，占用的快捷键是单个space键，而作为对照Powertoys的快捷键是Ctrl+Space
+
+不自带Office文档预览功能，需要在[Github页面](https://github.com/QL-Win/QuickLook/wiki/Available-Plugins)上下载对应的插件。
+
+![Alt text](README.assets/quicklook-2.png)
+
+插件的功能很丰富，包括但不限于Font文件预览，epub文件预览，office文件预览，BT种子文件预览，文件夹预览，Xmind文件预览等，可能涵盖一些Powertoys里的“速览”功能没有的文件格式。
 ### 功能优化
 
 #### **Geek**
