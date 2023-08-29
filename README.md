@@ -1,4 +1,8 @@
-# （也许是）当代大学生需要知道的常用软件合集
+# （也许是）当代大学生需要知道的电脑使用技巧
+
+**目录：**
+
+[toc]
 
 ## Part-1 文件管理和文件搜索
 
@@ -26,7 +30,7 @@
 
 - **官网链接：[Bandizip](http://www.bandisoft.com/bandizip/dl/)**
 - **适用平台：Windows, MacOS**
-- **详细介绍：[[Bandzip-让你爱不释手的解压缩软件](https://zhuanlan.zhihu.com/p/65414066)](https://zhuanlan.zhihu.com/p/472315250)**
+- **详细介绍：[Bandzip-让你爱不释手的解压缩软件](https://zhuanlan.zhihu.com/p/65414066)**
 
 我本来是想大力夸赞bandizip的无私的，直到几年前大伙发现在7.0版本开始后bandisoft在bandizip的首页添加了广告（具体参考[别再推荐 bandzip 了！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/111170689)）。虽然后来体验一番后发现广告只出现在软件首页，而我一般使用都是只有解压窗口弹出来，具体使用没什么影响，但是心里有点膈应。
 
@@ -72,7 +76,7 @@
 
 ### 快速启动
 
-如果你曾使用过Mac，知道Command+Space快捷键呼出的**聚焦搜索**功能，那么一定不会对下面这两款软件实现的功能感到陌生——它们都是模拟Mac的聚焦搜索功能推出的，并且都提供了不同的插件安装方式
+如果你曾使用过Mac，知道`Command+Space`快捷键呼出的**聚焦搜索**功能，那么一定不会对下面这两款软件实现的功能感到陌生——它们都是模拟Mac的聚焦搜索功能推出的，并且都提供了不同的插件安装方式
 
 换一种情况来说，如果你是一个Windows用户，经常用Windows键呼出的主菜单的搜索页面打开应用或寻找文件，那么我也建议你了解一下这几款应用
 
@@ -132,11 +136,11 @@ Steam游戏快速启动插件（这个utools也有）
 
 其次，它不支持自动回中，也就是你拖动了它的搜索框，它不会自动回到屏幕正中的位置。不是什么大问题，就是强迫症略有一点点难受:)
 
-以及，它的插件真的很多，但是它大肆宣扬的剪贴板插件其实Windows自己有快捷键的，按一下Windows键+V就能调出来
+以及，它的插件真的很多，但是它大肆宣扬的剪贴板插件其实Windows自己有快捷键的，按一下`Win+V`就能调出来
 
 #### Powertoys
 
-我把Powertoys放在这里纯属是因为Powertoys Run这个功能不仅难用还把alt+space这个快捷键冲了:)，这里不打算详细介绍
+我把Powertoys放在这里纯属是因为Powertoys Run这个功能不仅难用还把`alt+space`这个快捷键冲了:)，这里不打算详细介绍
 
 Powertoys可以直接在微软应用商店下载，里面有很多功能，但是不建议使用Powertoys Run
 
@@ -520,7 +524,7 @@ apt-get install python
 有一说一我真的很羡慕这种简单的安装方法
 
 1. 首先，在你的软件列表里，打开**终端(Terminal)**这个软件
-2. 然后，在命令行界面里，输入gcc或者g++或者clang，然后按下回车
+2. 然后，在命令行界面里，输入`gcc`或者`g++`或者`clang`，然后按下回车
 3. 然后它应该会有个弹窗弹出来，提醒你安装一个什么开发软件包
 4. 你点击安装，进度条走完，一切就神奇地结束了
 
@@ -629,7 +633,7 @@ VSCode上很多人喜欢的第三方主题（为什么啊？）
 
 ![md plugin preview](README.assets/vscode-md-plugin-2.png)
 
-如果你不想开，记住手动唤起预览的快捷键是Ctrl+Shift+V，然后可以用vscode自带的分屏达到同样的效果
+如果你不想开，记住手动唤起预览的快捷键是`Ctrl+Shift+V`，然后可以用vscode自带的分屏达到同样的效果
 
 我的建议是，如果可以的话，还是记忆一下常用的快捷键，会很大程度的提高电脑的使用效率
 
@@ -672,7 +676,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 然后，在下载使用之前，来看看这个
 
 - [请立即替换掉反华病毒软件Notepad++_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1dY411D7zW/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
-- [辟谣】Notepad++真的是反华病毒软件吗？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jT411o7AR/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
+- [【辟谣】Notepad++真的是反华病毒软件吗？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jT411o7AR/?spm_id_from=333.337.search-card.all.click&vd_source=fd14097d34912b0fb2bec98bf902b79a)
 
 简单来讲，这个作者脑子出了一点问题，导致他在GNU开源协议的基础上搞政治拉踩恶心人，接下来用不用见仁见智
 
@@ -730,7 +734,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 - **适用平台：Windows**
 - **下载方式：微软应用商店**
 
-主要功能是快速预览，占用的快捷键是单个space键，而作为对照Powertoys的快捷键是Ctrl+Space
+主要功能是快速预览，占用的快捷键是单个`space`键，而作为对照Powertoys的快捷键是`Ctrl+Space`
 
 不自带Office文档预览功能，需要在[Github页面](https://github.com/QL-Win/QuickLook/wiki/Available-Plugins)上下载对应的插件。
 
@@ -738,6 +742,19 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 插件的功能很丰富，包括但不限于Font文件预览，epub文件预览，office文件预览，BT种子文件预览，文件夹预览，Xmind文件预览等，可能涵盖一些Powertoys里的“速览”功能没有的文件格式。
 ### 功能优化
+
+#### 腾讯桌面管理
+
+<img src="./README.assets/image-20230829160747776.png" alt="image-20230829160747776" style="zoom:33%;" />
+
+- **官网链接：[桌面整理_桌面整理软件_一键桌面整理工具-腾讯电脑管家官网 (qq.com)](https://guanjia.qq.com/product/zmzl/)**
+- **适用平台：Windows**
+
+我的评价是，先别对着腾讯这个名字PTSD了，这个软件是真的挺好的。
+
+腾讯做良心软件，不觉得很酷吗，作为一个大学生我觉得太酷了，很符合我对未来科技的想象，科技并带着趣味。
+
+不过需要注意的是，那个超级大的 <u>*立即下载*</u> 按钮下载的是腾讯管家全家桶，只有下面这行小字才是单纯单独这个功能。
 
 #### **Geek**
 
@@ -767,6 +784,7 @@ wpm install quick uninstaller
 一步到位
 
 同理，可以用`wpm`插件安装wox官网上的各种插件，我个人最推荐的还是`steam`、`Quick Uninstaller`和`有道翻译`
+
 ### 把免安装软件加入启动菜单
 
 我们先把好处说了吧：加入开始菜单后你可以从开始菜单，utools或者wox里快速启动这个软件
@@ -789,7 +807,52 @@ wpm install quick uninstaller
 
 所以，你先把你需要用的免安装软件放在一个比较顺眼的位置
 
-然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的alt键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
+然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的`alt`键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
 
-👆顺带一提，如果不按住修饰键就是移动，按住alt就是创建快捷方式，按住ctrl就是复制
+👆顺带一提，如果不按住修饰键就是移动，按住alt就是创建快捷方式，按住`ctrl`就是复制，具体的见 ***Part-5***
 
+## Part-5 系统常用快捷键
+
+### 与鼠标协同的快捷键
+
+在使用电脑的过程中，大多数时候用的还是鼠标，所以先盘点一下与鼠标协同的快捷键。
+
+#### 文件的选择
+
+假如我们有这么一个场景：
+
+<img src="./README.assets/image-20230829161846749.png" alt="image-20230829161846749" style="zoom:33%;" />
+
+我们选择了第一个文件，如果不按修饰键（实际上，按住`alt`也一样），就是这个样子：
+
+<img src="./README.assets/tutieshi_640x360_2s.gif" alt="tutieshi_640x360_2s" style="zoom:80%;" />
+
+接下来是一点不一样的，按住`ctrl`键再点击别的文件，相当于添加选择（或者取消已经选择的）文件：
+
+<img src="./README.assets/tutieshi_640x360_3s.gif" alt="tutieshi_640x360_3s" style="zoom:80%;" />
+
+所以，就可以达到这样的效果：
+
+<img src="./README.assets/tutieshi_640x360_7s.gif" alt="tutieshi_640x360_7s" style="zoom:80%;" />
+
+而与之不同的是，如果你按住`shift`修饰键，则是选择两次点击之间的所有文件：
+
+<img src="./README.assets/tutieshi_640x360_7s%20(1).gif" alt="tutieshi_640x360_7s (1)" style="zoom:80%;" />
+
+#### 文件的拖动
+
+众所周知，我们直接在文件夹之间拖动文件是这个效果：文件的移动
+
+<img src="./README.assets/tutieshi_640x360_4s.gif" alt="tutieshi_640x360_4s" style="zoom:80%;" />
+
+（当然，如果是从外部存储设备往内部存储拖动文件的话默认是复制，我们这里先不计较这些细节）
+
+但是，如果有了修饰键，结果会有改变（在这里`shift`修饰键没有实际作用）
+
+如果按住了`ctrl`，那么文件的移动操作会变成文件的复制操作：
+
+<img src="./README.assets/tutieshi_640x360_5s.gif" alt="tutieshi_640x360_5s" style="zoom:80%;" />
+
+如果按住了`alt`，那么文件的移动操作会变成在指定目录创建选中文件的快捷方式：
+
+<img src="./README.assets/tutieshi_640x360_6s.gif" alt="tutieshi_640x360_6s" style="zoom:80%;" />
