@@ -817,7 +817,7 @@ wpm install quick uninstaller
 
 在使用电脑的过程中，大多数时候用的还是鼠标，所以先盘点一下与鼠标协同的快捷键。
 
-#### 文件的选择
+#### 选择项目
 
 假如我们有这么一个场景：
 
@@ -839,11 +839,25 @@ wpm install quick uninstaller
 
 <img src="./README.assets/tutieshi_640x360_7s%20(1).gif" alt="tutieshi_640x360_7s (1)" style="zoom:80%;" />
 
+需要提醒的是，一般快捷键是具有泛用性的，也就是说在不同的软件里面，有的快捷键的效果可能有相同的定义，我就以这个鼠标修饰键为例：
+
+- 在浏览器里，按住`ctrl`也会有网页多选的效果：
+
+<img src="./README.assets/tutieshi_640x1113_14s.gif" alt="tutieshi_640x1113_14s" style="zoom: 33%;" />
+
+- 同理，在浏览器里，按住`shift`也会有范围选择的效果：
+
+<img src="./README.assets/tutieshi_640x1113_6s.gif" alt="tutieshi_640x1113_6s" style="zoom:33%;" />
+
+同理，在Photoshop（或者Affinity Photo）的对象/图层选择，Premiere Pro的轨道/素材库里的素材多选之类的也有相同的逻辑
+
+浏览器多选网页可以配合其他浏览器快捷键使用，这个会放在后面进行介绍
+
 #### 文件的拖动
 
 众所周知，我们直接在文件夹之间拖动文件是这个效果：文件的移动
 
-<img src="./README.assets/tutieshi_640x360_4s.gif" alt="tutieshi_640x360_4s" style="zoom:80%;" />
+<img src="./README.assets/tutieshi_640x425_5s.gif" alt="tutieshi_640x425_5s" style="zoom: 67%;" />
 
 （当然，如果是从外部存储设备往内部存储拖动文件的话默认是复制，我们这里先不计较这些细节）
 
@@ -851,8 +865,8 @@ wpm install quick uninstaller
 
 如果按住了`ctrl`，那么文件的移动操作会变成文件的复制操作：
 
-<img src="./README.assets/tutieshi_640x360_5s.gif" alt="tutieshi_640x360_5s" style="zoom:80%;" />
+<img src="./README.assets/tutieshi_640x425_7s.gif" alt="tutieshi_640x425_7s" style="zoom: 67%;" />
 
 如果按住了`alt`，那么文件的移动操作会变成在指定目录创建选中文件的快捷方式：
 
-<img src="./README.assets/tutieshi_640x360_6s.gif" alt="tutieshi_640x360_6s" style="zoom:80%;" />
+<img src="./README.assets/tutieshi_640x425_6s.gif" alt="tutieshi_640x425_6s" style="zoom: 67%;" />
