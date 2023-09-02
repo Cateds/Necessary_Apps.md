@@ -1,6 +1,14 @@
 # （也许是）当代大学生需要知道的电脑使用技巧
 
-**目录：**
+> **[@2023-9-3]**
+>
+> **观前提示：**作为作者，我很建议你把这篇文章从头到尾看完,，但是鉴于我还在不定时更新新的内容（具体可以看版本介绍），所以把它当工具书随时查阅也未尝不是一种明智的选择。
+>
+> **观前提示.II：**在查看内容时记得留意内容的最新更新时间，有的内容可能过了一段时间后失去了时效性，包括但不限于免费软件转付费软件，有了更优秀的替补，有了新加入的功能等
+>
+> **观前提示.III：**作者本人是学电子信息工程专业的，有关计算机方面的知识不能保证完全准确客观完善，如果有建议欢迎写Issue
+
+## **Part-0 目录**
 
 [toc]
 
@@ -12,7 +20,7 @@
 
 推荐两个我建议使用的压缩&解压缩软件：
 
-#### 7-zip
+#### **7-zip**
 
 <img src="./README.assets/image-20230821044952720.png" alt="image-20230821044952720" style="zoom:33%;" />
 
@@ -24,7 +32,7 @@
 
 除了UI有点古朴外没有影响，就讲究一个有口皆碑
 
-#### bandizip
+#### **bandizip**
 
 <img src="./README.assets/image-20230821045351411.png" alt="image-20230821045351411" style="zoom: 33%;" />
 
@@ -52,7 +60,7 @@
 
 ### 文件搜索
 
-#### Everything
+#### **Everything**
 
 如果你被Windows的**文件资源管理器自带的文件搜索**恶心过，那么，这个软件一定能解决你的问题
 
@@ -80,7 +88,7 @@
 
 换一种情况来说，如果你是一个Windows用户，经常用Windows键呼出的主菜单的搜索页面打开应用或寻找文件，那么我也建议你了解一下这几款应用
 
-#### Wox
+#### **Wox**
 
 <img src="./README.assets/v2-a4e920ea5bb5a50c815ab64069c40fb3_1440w.png" alt="效率神器 — WOX" style="zoom:50%;" />
 
@@ -114,7 +122,7 @@ Steam游戏快速启动插件（这个utools也有）
 
 以及强迫症最喜欢的每次开启自动回中
 
-#### Utools
+#### **Utools**
 
 <img src="./README.assets/image-20230821043849904.png" alt="image-20230821043849904" style="zoom:25%;" />
 
@@ -138,7 +146,7 @@ Steam游戏快速启动插件（这个utools也有）
 
 以及，它的插件真的很多，但是它大肆宣扬的剪贴板插件其实Windows自己有快捷键的，按一下`Win+V`就能调出来
 
-#### Powertoys
+#### **Powertoys**
 
 我把Powertoys放在这里纯属是因为Powertoys Run这个功能不仅难用还把`alt+space`这个快捷键冲了:)，这里不打算详细介绍
 
@@ -214,7 +222,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 你很有可能需要一些**磁力链接/Bittorrent种子/https链接**下载需求，这是一些软件推荐
 
-##### Motrix
+##### **Motrix**
 
 <img src="./README.assets/image-20230821035635516.png" alt="image-20230821035635516" style="zoom: 25%;" />
 
@@ -229,7 +237,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 配置教程：[Aria2-Explorer - 知乎](https://zhuanlan.zhihu.com/p/387408041)
 
-##### IDM
+##### **IDM**
 
 <img src="./README.assets/image-20230821035937238.png" alt="image-20230821035937238" style="zoom:25%;" />
 
@@ -240,7 +248,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 要钱，但是破解版满天飞
 
-##### NDM
+##### **NDM**
 
 <img src="./README.assets/image-20230821040641905.png" alt="image-20230821040641905" style="zoom:25%;" />
 
@@ -249,7 +257,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 从名字开始对标IDM的免费下载器，性能很强大（反正我用不完），美中不足的就是UI有点掉价
 
-##### 迅雷
+##### **迅雷**
 
 <img src="./README.assets/image-20230821040533682.png" alt="image-20230821040533682" style="zoom:25%;" />
 
@@ -696,6 +704,12 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 没错，我说的就是Windows自带的记事本。不然我给人推荐我自己都不会的vim吗难道
 
+### 关于Git的入门
+
+> **[@2023-9-3]**
+>
+> **观前提示：**手把手教学，治标不治本，如果有希望进阶学习的同学（比如说计算机学院的），可以去看看git官方的[Git - Book](https://git-scm.com/book/zh/v2)。顺带一提，Git-Book很贴心的提供了中文版本，所以不用担心看不懂。
+
 ## Part-4 系统功能优化加强
 
 ### 额外功能
@@ -726,7 +740,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 可以考虑下一个，给自己增加一点电脑使用需求
 
-#### Quicklook
+#### **Quicklook**
 
 ![Alt text](README.assets/quicklook.png)
 
@@ -743,7 +757,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 插件的功能很丰富，包括但不限于Font文件预览，epub文件预览，office文件预览，BT种子文件预览，文件夹预览，Xmind文件预览等，可能涵盖一些Powertoys里的“速览”功能没有的文件格式。
 ### 功能优化
 
-#### 腾讯桌面管理
+#### **腾讯桌面管理**
 
 <img src="./README.assets/image-20230829160747776.png" alt="image-20230829160747776" style="zoom:33%;" />
 
