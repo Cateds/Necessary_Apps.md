@@ -8,7 +8,7 @@
 >
 > **观前提示.III：**作者本人是学电子信息工程专业的，有关计算机方面的知识不能保证完全准确客观完善，如果有建议欢迎写Issue
 
-## **Part-0 目录**
+## Part-0 目录
 
 [toc]
 
@@ -702,13 +702,167 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 - **适用平台：Windows**
 
-没错，我说的就是Windows自带的记事本。不然我给人推荐我自己都不会的vim吗难道
+没错，就是Windows自带的记事本
 
 ### 关于Git的入门
 
 > **[@2023-9-3]**
 >
 > **观前提示：**手把手教学，治标不治本，如果有希望进阶学习的同学（比如说计算机学院的），可以去看看git官方的[Git - Book](https://git-scm.com/book/zh/v2)。顺带一提，Git-Book很贴心的提供了中文版本，所以不用担心看不懂。
+
+首先，这个教学的目的是让你的项目连接到远程的git代理库（比如GitHub），我们先明确这一点。
+
+然后先进行准备工作吧
+
+#### 本地准备工作
+
+> **观前提示：**Git的本体基本上是必选项，命令行能提供最多样的命令选择；Git的GUI软件其实是可选项，这也是我图好看的主要原因
+>
+> 顺带一提安装Git顺带安装的Git GUI那个软件是真的不好用，当然也不排除是我的问题
+
+##### **Git（本体）**
+
+我们先安装我们的主角[Git](https://git-scm.com/downloads)
+
+<img src="./README.assets/image-20230903215633877.png" alt="image-20230903215633877" style="zoom: 50%;" />
+
+- **适用平台：Windows, Linux, MacOS**
+- **官网网址：[Git - Downloads (git-scm.com)](https://git-scm.com/downloads)**
+
+目前使用最为广泛的代码版本管理软件，可以通过SSL连接多个远程托管服务器，比如说Github，Gitee（国内的，中文名叫码云），Gitlab等，基本写代码都要用的吧……不是很确定
+
+Git可以全程通过命令行操作，但是也有很多直观的GUI版本可以使用，但是通常GUI都会缺少一些功能，所以两者基本都会用到
+
+> 关于GIt的GUI软件，Git的官网[Git - GUI Clients (git-scm.com)](https://git-scm.com/downloads/guis)上有非常详细的介绍，你可以在上面选符合你的审美的或者你觉得价格合适的之类的，应该是会不断更新的，如果你选好了就不用往下看了，下面都是我列的我自己喜欢的GIt GUI
+
+##### **Vscode的GitLens插件**
+
+受到微软官方认可的Git插件，功能比较强大，可以等效为Git的GUI软件进行使用
+
+在安装的时候图标长这个样子：
+
+<img src="./README.assets/image-20230818232852422.png" alt="image-20230818232852422" style="zoom: 67%;" />
+
+能在微软官方Vscode支持的基础上提供版本树的图形化表示，GUI涵盖了一部分的内容，但是有的时候使用Push不是很方便
+
+具体的界面如下：
+
+<img src="./README.assets/image-20230903220426176.png" alt="image-20230903220426176" style="zoom:67%;" />
+
+##### **Fork**
+
+<img src="./README.assets/image-20230903220706064.png" alt="image-20230903220706064" style="zoom: 33%;" />
+
+- **适用平台：Windows, MacOS**
+- **官网链接：[Fork - a fast and friendly git client for Mac and Windows (git-fork.com)](https://git-fork.com/)**
+
+在三年前这是我心目中最好用的Git的GUI客户端，不仅好看，免费，并且还功能完善，操作清晰，色调明快，满足基本所有的功能，唯一的缺点是不支持中文
+
+现在的问题是这个收费了，$49.99，高攀不起
+
+如果我之后写Markdown入门介绍的话你会在我对Typora的描述里看到相似的言论
+
+##### **Github Desktop**
+
+<img src="./README.assets/image-20230903221446388.png" alt="image-20230903221446388" style="zoom: 33%;" />
+
+- **适用平台：Windows, MacOS**
+- **官网链接：[GitHub Desktop | Simple collaboration from your desktop](https://desktop.github.com/)**
+
+<img src="./README.assets/image-20230903221636725.png" alt="image-20230903221636725" style="zoom:50%;" />
+
+我觉得最大的缺点是它没有版本树的可视化功能，但是它有Github冠名
+
+##### **Sourcetree**
+
+<img src="./README.assets/image-20230903221758895.png" alt="image-20230903221758895" style="zoom:50%;" />
+
+- **适用平台：Windows, MacOS**
+- **官网链接：[Sourcetree | Free Git GUI for Mac and Windows (sourcetreeapp.com)](https://www.sourcetreeapp.com/)**
+
+好看，但是没有fork好看，但是**免费**
+
+##### **Gitkraken**
+
+<img src="./README.assets/image-20230903222045942.png" alt="image-20230903222045942" style="zoom:50%;" />
+
+- **适用平台：Windows, MacOS, Linux**
+- **官网链接：[GitKraken Legendary Git Tools | GitKraken](https://www.gitkraken.com/)**
+
+~~它说自己most powerful真的不会触犯广告法吗~~
+
+👆Vscode的Gitlens插件是GitKraken做的，我为我的无知感到抱歉，它确实强
+
+<img src="./README.assets/image-20230903222524695.png" alt="image-20230903222524695" style="zoom:50%;" />
+
+它有写free，应该是能免费用的
+
+#### 远程准备工作
+
+现在你要选择一个你比较喜欢的代码托管网站，然后按照引导注册一个账号，记住你的账号和你的密码
+
+##### **Gitee（码云）**
+
+<img src="./README.assets/image-20230903223406967.png" alt="image-20230903223406967" style="zoom:50%;" />
+
+- **官网：[Gitee - 企业级 DevOps 研发效能平台](https://gitee.com/)**
+- **优点：**服务器建设在国内，连接顺畅并且速度较快，页面是中文容易上手，免费
+- **缺点：**建立项目默认是私有项目，想转公共项目需要审核内容，像我这个文件就不知道为什么审核没过没法显示，属于是国内特色
+
+##### **Gitlab**
+
+<img src="./README.assets/image-20230903223815871.png" alt="image-20230903223815871" style="zoom:50%;" />
+
+- **官网：[The DevSecOps Platform | GitLab](https://about.gitlab.com/)**
+- **优点：**国内直连比Github稳定太多，免费，没有审核
+- **缺点：**~~我其实不太确定~~全英文~~算不算缺点~~，有的时候略卡
+
+##### **Github**
+
+<img src="./README.assets/image-20230903224325977.png" alt="image-20230903224325977" style="zoom:50%;" />
+
+- **官网：[The DevSecOps Platform | GitLab](https://about.gitlab.com/)**
+- **优点：**背靠Microsoft，是全世界最大的代码托管网站，认可度最高，理论上最好使
+- **缺点：**有的时候登录巨慢，有的时候压根没发链接（亲测华科校园网连的最快），上去下个文件还得用motrix等下载工具才能跑到MB/s级别
+
+#### 本地git配置
+
+> **观前提示：**之后的操作基于Vscode及其GitLens插件实现，用其他的Git GUI可能操作略有不同
+
+首先，打开你的**终端**（也就是命令行，你用**cmd**，**powershell**都行），然后进行git的全局设置
+
+```shell
+git config --global user.name "YourName" //记得把双引号里的内容换成自己的名字
+git config --global user.email "YourEmail" //记得把双引号里的内容换成自己的邮箱
+```
+
+这个是更高git的全局设置（如果你有用Git GUI的话有的会引导你进行这一步，比如说Fork就会），所有设置会存储在一个叫`.gitconfig`的文件里，具体的文件路径是`"C:\Users\你的用户名\.gitconfig"`
+
+<img src="./README.assets/image-20230903230320575.png" alt="image-20230903230320575" style="zoom:33%;" />
+
+#### 本地代码仓库配置
+
+然后进入你的代码项目文件夹，比如说我就使用这个
+
+<img src="./README.assets/image-20230903225348641.png" alt="image-20230903225348641" style="zoom:50%;" />
+
+虽然可以直接用命令行进行`git init`操作，但是得先使用`cd`命令，所以我的建议是直接使用Vscode的初始化代码库：
+
+<img src="./README.assets/image-20230903225644510.png" alt="image-20230903225644510" style="zoom: 33%;" />
+
+这样就初始化了这个代码仓库（本地），我们先推送它的第一个版本：
+
+<img src="./README.assets/image-20230903225857845.png" alt="image-20230903225857845" style="zoom:33%;" />
+
+然后打开GiLens插件的可视化，我们就能看到我们的版本推送了：
+
+<img src="./README.assets/image-20230903230133147.png" alt="image-20230903230133147" style="zoom:80%;" />
+
+这样，我们就完成了本地的代码仓库配置
+
+#### 远程代码仓库配置
+
+> **P.S. **这里通过Github进行演示，其他代码托管网站应该大同小异
 
 ## Part-4 系统功能优化加强
 
