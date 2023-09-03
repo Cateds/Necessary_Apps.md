@@ -836,7 +836,9 @@ git config --global user.name "YourName" //记得把双引号里的内容换成�
 git config --global user.email "YourEmail" //记得把双引号里的内容换成自己的邮箱
 ```
 
-这个是更高git的全局设置（如果你有用Git GUI的话有的会引导你进行这一步，比如说Fork就会），所有设置会存储在一个叫`.gitconfig`的文件里，具体的文件路径是`"C:\Users\你的用户名\.gitconfig"`
+如果输入格式错误命令行会报错，如果输入正确那么命令行**只会卡一下，不会有输出**，还请注意，
+
+这个是更改git的全局设置（如果你有用Git GUI的话有的会引导你进行这一步，比如说Fork就会），所有设置会存储在一个叫`.gitconfig`的文件里，具体的文件路径是`"C:\Users\你的用户名\.gitconfig"`
 
 <img src="./README.assets/image-20230903230320575.png" alt="image-20230903230320575" style="zoom:33%;" />
 
@@ -1038,3 +1040,5 @@ wpm install quick uninstaller
 如果按住了`alt`，那么文件的移动操作会变成在指定目录创建选中文件的快捷方式：
 
 <img src="./README.assets/tutieshi_640x425_6s.gif" alt="tutieshi_640x425_6s" style="zoom: 67%;" />
+
+【尚未完结 TODO】
