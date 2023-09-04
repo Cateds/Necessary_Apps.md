@@ -902,7 +902,7 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 <img src="./README.assets/image-20230903225348641.png" alt="image-20230903225348641" style="zoom:50%;" />
 
-虽然可以直接用命令行进行`git init`操作，但是得先使用`cd`命令，所以我的建议是直接使用Vscode的初始化代码库：
+虽然可以直接用命令行进行`git init`操作，但是得先使用`cd`命令，所以我的建议是**直接用VSCode打开这个文件夹**，然后使用VSCode的初始化代码库：
 
 <img src="./README.assets/image-20230903225644510.png" alt="image-20230903225644510" style="zoom: 33%;" />
 
