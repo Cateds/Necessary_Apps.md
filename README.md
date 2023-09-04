@@ -833,7 +833,7 @@ Git可以全程通过命令行操作，但是也有很多直观的GUI版本可�
 
 <img src="./README.assets/image-20230903224325977.png" alt="image-20230903224325977" style="zoom:50%;" />
 
-- **官网：[The DevSecOps Platform | GitLab](https://about.gitlab.com/)**
+- **官网：[github.com](https://github.com/)**
 - **优点：** 背靠Microsoft，是全世界最大的代码托管网站，认可度最高，理论上最好使
 - **缺点：** 有的时候登录巨慢，**有的时候压根没法链接**（亲测华科校园网连的最快），上去下个文件还得用motrix等下载工具才能跑到MB/s级别
 
