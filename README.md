@@ -96,7 +96,7 @@
 
 <img src="./README.assets/v2-a4e920ea5bb5a50c815ab64069c40fb3_1440w.png" alt="效率神器 — WOX" style="zoom:50%;" />
 
-- **官网链接：[Wox](http://www.wox.one/)** 需通过Github下载本体，建议下载前先看看这个文件的 ***Part-2-3.-Github***
+- **官网链接：[Wox](http://www.wox.one/)**   需通过Github下载本体，建议下载前先看看 ***Part-2-3.-从Github上下载软件***
 - **适用平台：Windows**
 - **详细介绍：[效率神器 — WOX - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/68383315)**
 
@@ -138,15 +138,17 @@ Steam游戏快速启动插件（这个utools也有）
 
 对的，这个是国产软件，拥有一些相当本地化的功能，有一些视频处理类插件需要付费，其他插件可以免费使用，但是云同步要开会员
 
+软件的微信公众号里还有他们的开发团队走过五年的心路历程，如果是为了支持国产也可以考虑
+
 这个软件还会占用鼠标中键来实现它的“超级面板”功能，具体使用体验见仁见智吧
 
 说两点我使用过程中感触最深的：
 
 <img src="./README.assets/image-20230821044410517.png" alt="image-20230821044410517" style="zoom: 25%;" />
 
-首先，它的文件搜索支持分类搜索和文件预览。在文件搜索上，utools做到了遥遥领先
+首先，它的文件搜索支持**分类搜索**和**文件预览**。在**文件搜索**上，utools做到了**遥遥领先**
 
-其次，它不支持自动回中，也就是你拖动了它的搜索框，它不会自动回到屏幕正中的位置。不是什么大问题，就是强迫症略有一点点难受:)
+其次，**它不支持自动回中**，也就是你拖动了它的搜索框，它不会自动回到屏幕正中的位置。不是什么大问题，就是强迫症略有一点点难受:)
 
 以及，它的插件真的很多，但是它大肆宣扬的剪贴板插件其实Windows自己有快捷键的，按一下`Win+V`就能调出来
 
@@ -155,6 +157,8 @@ Steam游戏快速启动插件（这个utools也有）
 我把Powertoys放在这里纯属是因为Powertoys Run这个功能不仅难用还把`alt+space`这个快捷键冲了:)，这里不打算详细介绍
 
 Powertoys可以直接在微软应用商店下载，里面有很多功能，但是不建议使用Powertoys Run
+
+> 对于Powertoys的其他功能后文有提及及介绍，具体见 ***Part-4-额外功能-Powertoys***
 
 
 
@@ -216,7 +220,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 有的时候一些短期的文件分享，我会比较建议走快传这条路，比如说我一直在用的这个
 
-[奶牛快传｜免费大文件传输工具，上传下载不限速 CowTransfer | Unlimited Send Large Files](https://cowtransfer.com/)
+- [奶牛快传｜免费大文件传输工具，上传下载不限速 CowTransfer | Unlimited Send Large Files](https://cowtransfer.com/)
 
 云端有10GB的暂存容量，暂存时间最高可以选30天，下载不依赖客户端，可以手机上使用浏览器或者小程序下载，传输几个G的压缩包的时候可以试试
 
@@ -241,9 +245,11 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 支持https链接下载，磁链下载，迅雷链接下载，种子文件下载，断点续传，功能相对完善
 
-**2023-8-26补充：** 如果想用motrix接管所有浏览器下载的话，Microsoft Edge用户请选择微软插件商店里的[Aria2-Explorer](https://microsoftedge.microsoft.com/addons/detail/aria2-explorer/jjfgljkjddpcpfapejfkelkbjbehagbh?hl=zh-CN)插件，或者其他的Aria2插件。
+**[Update@2023-8-26]** 
 
-配置教程：[Aria2-Explorer - 知乎](https://zhuanlan.zhihu.com/p/387408041)
+**补充：**  如果想用motrix接管所有浏览器下载的话，Microsoft Edge用户请选择微软插件商店里的[Aria2-Explorer](https://microsoftedge.microsoft.com/addons/detail/aria2-explorer/jjfgljkjddpcpfapejfkelkbjbehagbh?hl=zh-CN)插件或者其他的Aria2插件，那个叫Moxtrix的插件并不能很好的完成功能。
+
+**配置教程：** [Aria2-Explorer - 知乎](https://zhuanlan.zhihu.com/p/387408041)
 
 ##### **IDM**
 
@@ -276,7 +282,7 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 国产，但是会和谐资源，下载性能很强大
 
-#### Github
+#### 从Github上下载软件
 
 这里不介绍奇怪的资源网站，需要提一下的就是怎么从Github上下载你想下载的东西
 
@@ -437,7 +443,7 @@ MacOS专用， 苹果亲手操刀，后面的留给果粉去吹，毕竟没怎�
 - **适用语言：C, C++**
 - **适用平台：Windows, MacOS, Linux**
 
-高情商：经典老牌IDE	中情商：历史的厚重感	低情商：UI有点复古
+**高情商：经典老牌IDE	中情商：历史的厚重感	低情商：UI有点复古**
 
 经典老牌IDE了，基本每个C/C++的入门书都会提到Code::Blocks这个软件，拥有相当长的历史
 
@@ -509,7 +515,7 @@ apt-get install python
 
 <img src="./README.assets/image-20230818223205623.png" alt="就是这个" style="zoom:33%;" />
 
-根据引导我们应该能下载到一个叫w64devkit-1.20.0.zip的压缩包，我们把它解压成一个文件夹，然后你可以把这个文件夹放在一个你觉得适合长时间存放应用的地方
+根据引导我们应该能下载到一个叫`w64devkit-1.20.0.zip`的压缩包，我们把它解压成一个文件夹，然后你可以把这个文件夹放在一个你觉得适合长时间存放应用的地方
 
 比如我选了这个位置↓
 
@@ -535,7 +541,7 @@ apt-get install python
 
 <img src="./README.assets/image-20230818224712562.png" alt="image-20230818224712562" style="zoom: 33%;" />
 
-然后一路确定下去，唤出powershell或者cmd，在命令行界面输入`gcc -v`，不出红字报错就成功了
+然后**一路确定下去**，唤出powershell或者cmd，在命令行界面输入`gcc -v`，不出红字报错就成功了
 
 <img src="./README.assets/image-20230818224900571.png" alt="image-20230818224900571" style="zoom:33%;" />
 
@@ -572,11 +578,11 @@ apt-get install gcc
 
 这里以VSCode为例，因为我主力使用的还是VSCode
 
-虽然编辑器的作用只是搞文字编辑，但是**代码语法高亮**的语言支持会限制编辑器的兼容性，比如你用Windows自带的notepad可以写全世界任何种类的代码，但是代码的语法高亮一个都不支持。这也是我们选编辑器的原因
+虽然编辑器的作用只是搞文字编辑，但是**代码语法高亮**的语言支持会限制编辑器的兼容性，比如你用Windows自带的notepad可以写全世界任何种类的代码，但是代码的语法高亮一个都不支持。这就是我们选编辑器的原因
 
 #### 安装本体（VSCode）
 
-这里强烈推荐Visual Studio Code，没有说Atom或者notepad或者Sublime Text不好用的意思，不过notepad++搞了台独就还真别用了。
+这里强烈推荐Visual Studio Code，**没有说Atom或者notepad或者Sublime Text不好用的意思**，不过notepad++搞了台独就还真别用了。
 
 首先在微软的官网上下载自己对应版本的VSCode
 
@@ -731,6 +737,8 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 > **观前提示：** Git的本体基本上是必选项，命令行能提供最多样的命令选择；Git的GUI软件其实是可选项，这也是我图好看的主要原因
 >
 > 顺带一提安装Git顺带安装的Git GUI那个软件是真的不好用，当然也不排除是我的问题
+>
+> **观前提示：** 如果**你选择使用命令行进行git操作**，请**跳过后面通过Git的GUI页面的全部教程**，跳转至 ***如果你选择使用命令行*** 章节
 
 ##### **Git（本体）**
 
@@ -839,8 +847,6 @@ Git可以全程通过命令行操作，但是也有很多直观的GUI版本可�
 
 #### 本地git配置
 
-> **观前提示：** 之后的操作基于Vscode及其GitLens插件实现，用其他的Git GUI可能操作略有不同
-
 首先，打开你的**终端**（也就是命令行，你用**cmd**，**powershell**都行），然后进行git的全局设置
 
 ```shell
@@ -854,7 +860,43 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 <img src="./README.assets/image-20230903230320575.png" alt="image-20230903230320575" style="zoom:33%;" />
 
-#### 本地代码仓库配置
+> 如果**你选择使用命令行进行git操作**，请**跳过后面通过Git的GUI页面的全部教程**，跳转至 ***如果你选择使用命令行*** 章节
+
+#### 远程代码仓库配置
+
+> **P.S. ** 这里通过Github进行演示，其他代码托管网站应该大同小异
+>
+> **P.S.2** Gitee默认是私有库，如果要转换成所有人可见需要自己去设置里调，并且会有审核
+
+首先，我们在Github页面上新建一个代码库，代码库的名字可以随便取，你乐意取什么都行，**没有必要和本地的项目文件夹名字一致**
+
+<img src="./README.assets/image-20230904213410462.png" alt="image-20230904213410462" style="zoom:50%;" />
+
+<img src="./README.assets/1693835308919.png" alt="1693835308919" style="zoom:50%;" />
+
+然后我们应该会进入这个页面：
+
+<img src="./README.assets/image-20230904215101173.png" alt="image-20230904215101173" style="zoom:50%;" />
+
+> Gtihub已经贴心的帮你把需要的所有的命令行指令都打出来了，别的代码托管网站可能也有类似的功能，我这边后续GUI还是基于VSCode的GitLens插件进行操作
+
+然后，你复制好你的这个远程库的链接。有两个途径可以看到这个链接
+
+要么是你的页面给你的：
+
+<img src="./README.assets/image-20230904215539715.png" alt="image-20230904215539715" style="zoom:50%;" />
+
+要么是直接在你的地址栏里面：
+
+<img src="./README.assets/image-20230904215651634.png" alt="image-20230904215651634" style="zoom:50%;" />
+
+总之先复制这个链接，这样远程仓库就准备完毕了
+
+#### 如果你选择使用GUI
+
+> **观前提示：** 之后的操作基于Vscode及其GitLens插件实现，用其他的Git GUI可能操作略有不同
+
+##### 本地代码仓库配置
 
 然后进入你的代码项目文件夹，比如说我就使用这个
 
@@ -874,39 +916,7 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 这样，我们就完成了本地的代码仓库配置
 
-#### 远程代码仓库配置
-
-> **P.S. ** 这里通过Github进行演示，其他代码托管网站应该大同小异
->
-> **P.S.2** Gitee默认是私有库，如果要转换成所有人可见需要自己去设置里调，并且会有审核
-
-首先，我们在Github页面上新建一个代码库，代码库的名字可以随便取，你乐意取什么都行，**没有必要和本地的项目文件夹名字一致**
-
-<img src="./README.assets/image-20230904213410462.png" alt="image-20230904213410462" style="zoom:50%;" />
-
-<img src="./README.assets/1693835308919.png" alt="1693835308919" style="zoom:50%;" />
-
-然后我们应该会进入这个页面：
-
-<img src="./README.assets/image-20230904215101173.png" alt="image-20230904215101173" style="zoom:50%;" />
-
-> Gtihub已经贴心的帮你把需要的所有的命令行指令都打出来了，别的代码托管网站可能也有类似的功能，我这边后续还是基于VSCode的GitLens插件进行操作
->
-> 命令行还是建议自己学，功能太多了
-
-然后，你复制好你的这个远程库的链接。有两个途径可以看到这个链接
-
-要么是你的页面给你的：
-
-<img src="./README.assets/image-20230904215539715.png" alt="image-20230904215539715" style="zoom:50%;" />
-
-要么是直接在你的地址栏里面：
-
-<img src="./README.assets/image-20230904215651634.png" alt="image-20230904215651634" style="zoom:50%;" />
-
-总之先复制这个链接，这样远程仓库就准备完毕了
-
-#### 连接远程和本地仓库
+##### 连接远程和本地仓库
 
 回到我们的VSCode页面，这次是用的不是GitLens插件了，而是它自带的Git功能
 
@@ -942,6 +952,75 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 <img src="./README.assets/image-20230904222353603.png" alt="image-20230904222353603" style="zoom:50%;" />
 
+##### 之后的版本提交
+
+首先，你在更改并保存完文件后，先进行本地版本的提交，就像这个图：
+
+<img src="./README.assets/image-20230903225857845.png" alt="image-20230903225857845" style="zoom:33%;" />
+
+成功提交版本后，通过 ***连接远程和本地仓库*** 里提到的**push**操作将本地的版本提交到远程代码仓库就完成了一次从本地到云端的提交
+
+#### 如果你选择使用命令行
+
+首先，因为我不确定你们的项目地址，所以我们来约定一系列的替换用词：
+
+- **<u>%本地项目%</u>** 来代指你的项目的本地地址，注意是**绝对地址**，这个可以在文件夹的**属性**里查到
+- **<u>%远程仓库%</u>** 来代指你的项目的远程地址，注意是http或者https开头的链接，这个可以在 ***远程代码仓库配置*** 里看到相关内容
+
+> **注意：** 为了更好地理解，**可能**需要你有命令行的命令的基础（有`cd`就够）
+>
+> **注意：** 关于`git clone`之类的操作可能需要看其他的教程
+
+打开你的命令行，对于Windows就是**终端**，**Powershell**或者**cmd**，对于MacOS就是**Terminal**
+
+然后，在你的命令行里进行操作：**（#后面的是注释，不用打进去）**
+
+##### 初始化本地代码仓库
+
+```shell
+# Step-1 移动到项目路径 
+cd %本地项目%
+# Step-2 初始化
+git init
+```
+
+##### 提交本地版本
+
+```shell
+# Step-1 把所有文件加入待提交清单
+git	add .
+# Step-1-optional 把文件名加入追踪，一般不使用，这里你可以跳过这个命令
+git add <文件名>
+# Step-2 提交版本，注释里可以写想写的内容，可以看GUI版本的对应操作进行理解
+git commit -m "注释"
+```
+
+##### 连接远程代码仓库
+
+``` shell
+# Step-1 别名随便写，你看得懂就行；理论上要登陆账号，建议看情况操作
+git remote add <远程仓库别名> %远程仓库%
+# Step-2-optional 把目前的分支改名为main（因为Github默认是main，而有的默认是master），这个是可选项，也就是看你自己的习惯和选择的代码托管平台
+git branch -M main
+# Step-2 如果没有改名的话main可能要改成master或者其他的；这个就是我们说的push操作，把本地的文件推送的远程代码仓库上
+git push -u <远程仓库别名> main
+```
+
+##### 之后的版本提交
+
+```shell
+# Step-1 把所有文件加入待提交清单
+git	add .
+# Step-1-optional 把文件名加入追踪，一般不使用，这里你可以跳过这个命令
+git add <文件名>
+# Step-2 提交版本，注释里可以写想写的内容，可以看GUI版本的对应操作进行理解
+git commit -m "注释"
+# Step-3 如果没有改名的话main可能要改成master或者其他的；这个就是我们说的push操作，把本地的文件推送的远程代码仓库上
+git push -u <远程仓库别名> main 	 
+```
+
+---
+
 这些基本就是Git的基础入门操作了，更进阶一点的~~入门操作~~可以通过百度搜索来学到更多
 
 > **知其所以然的教程推荐：**
@@ -955,7 +1034,11 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 ---
 
-## Part-4 系统功能优化加强
+## Part-4 系统功能优化及加强
+
+> 严格意义上来讲 ***Part-1*** 的内容是 ***Part-4*** 的子集，但是 ***Part-1*** 写的时候我还没构思到 ***Part-4***，这下回旋镖打到我自己了
+>
+> 所以，在看 ***Part-4*** 之前，还是建议把 ***Part-1*** 看一下，我也会尽量在 ***Part-1*** 和 ***Part-4***  之间添加一些双向索引来达到不同Part相互关联的效果
 
 ### 额外功能
 
@@ -1000,6 +1083,11 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 ![Alt text](README.assets/quicklook-2.png)
 
 插件的功能很丰富，包括但不限于Font文件预览，epub文件预览，office文件预览，BT种子文件预览，文件夹预览，Xmind文件预览等，可能涵盖一些Powertoys里的“速览”功能没有的文件格式。
+
+ **[Update@2023-9-5]** 
+
+Quicklook的预览支持薄纱Powertoys，不建议任何人使用Powertoys的“速览”功能
+
 ### 功能优化
 
 #### **腾讯桌面管理**
@@ -1013,7 +1101,7 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 腾讯做良心软件，不觉得很酷吗，作为一个大学生我觉得太酷了，很符合我对未来科技的想象，科技并带着趣味。
 
-不过需要注意的是，那个超级大的 <u>*立即下载*</u> 按钮下载的是腾讯管家全家桶，只有下面这行小字才是单纯单独这个功能。
+不过需要注意的是，那个超级大的 <u>*立即下载*</u> 按钮下载的是腾讯管家全家桶，**只有下面这行小字才是单纯单独这个功能**。
 
 #### **Geek**
 
@@ -1028,11 +1116,14 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 需要注意的是软件只有Portable（也就是免安装）版本，想要用utools或者wox快速打开的话需要把快捷方式加入到Windows启动菜单
 
 **教程就在本节后面一点**
+
 #### **Wox的Quick Uninstaller插件**
+
+> 关于Wox，前文提及且有详细介绍，见 ***Part-1-快速启动-Wox***
 
 如果你选择使用Wox，那么安装方法很简单：在Wox的输入框里输入
 
-```
+```shell
 wpm install quick uninstaller
 ```
 
@@ -1042,7 +1133,17 @@ wpm install quick uninstaller
 
 一步到位
 
-同理，可以用`wpm`插件安装wox官网上的各种插件，我个人最推荐的还是`steam`、`Quick Uninstaller`和`有道翻译`
+同理，可以用`wpm`插件安装[Wox官网的插件一览](http://www.wox.one/plugin)上的各种插件，我个人最推荐的还是`steam`、`Quick Uninstaller`和`有道翻译`
+
+#### Everything
+
+<img src="./README.assets/image-20230821041524665-1693843603927-2.png" alt="image-20230821041524665" style="zoom:50%;" />
+
+- **官网链接：[voidtools](https://www.voidtools.com/zh-cn/)**
+- **适用平台：Windows**
+- **详细介绍：[文件搜索神器 | Everything - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/409431144)**
+
+> 前文提及且有详细介绍，见 ***Part-1-文件搜索-Everything***
 
 ### 把免安装软件加入启动菜单
 
@@ -1074,7 +1175,7 @@ wpm install quick uninstaller
 
 ---
 
-## Part-5 系统常用快捷键
+## Part-5 系统常用快捷键整理
 
 ### 与鼠标协同的快捷键
 
