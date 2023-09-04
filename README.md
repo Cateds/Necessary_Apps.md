@@ -8,9 +8,13 @@
 >
 > **观前提示.III：** 作者本人是学电子信息工程专业的，有关计算机方面的知识不能保证完全准确客观完善，如果有建议欢迎写Issue
 
+---
+
 ## Part-0 目录
 
 [toc]
+
+---
 
 ## Part-1 文件管理和文件搜索
 
@@ -151,6 +155,10 @@ Steam游戏快速启动插件（这个utools也有）
 我把Powertoys放在这里纯属是因为Powertoys Run这个功能不仅难用还把`alt+space`这个快捷键冲了:)，这里不打算详细介绍
 
 Powertoys可以直接在微软应用商店下载，里面有很多功能，但是不建议使用Powertoys Run
+
+
+
+---
 
 ## Part-2 文件上传和文件下载
 
@@ -295,6 +303,10 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 <img src="./README.assets/image-20230818222857185.png" alt="image-20230818222857185" style="zoom:33%;" />
 
 直接单击下载即可；偶尔Github下载网速会很慢，也可以试试加速器或者下载器之类的。
+
+
+
+---
 
 ## Part-3 写代码前的环境配置
 
@@ -706,7 +718,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 ### 关于Git的入门
 
-> **[@2023-9-3]**
+> **[Update@2023-9-4]**
 >
 > **观前提示：** 手把手教学，治标不治本，如果有希望进阶学习的同学（比如说计算机学院的），可以去看看git官方的[Git - Book](https://git-scm.com/book/zh/v2)。顺带一提，Git-Book很贴心的提供了中文版本，所以不用担心看不懂。
 
@@ -806,24 +818,24 @@ Git可以全程通过命令行操作，但是也有很多直观的GUI版本可�
 <img src="./README.assets/image-20230903223406967.png" alt="image-20230903223406967" style="zoom:50%;" />
 
 - **官网：[Gitee - 企业级 DevOps 研发效能平台](https://gitee.com/)**
-- **优点：**服务器建设在国内，连接顺畅并且速度较快，页面是中文容易上手，免费
-- **缺点：**建立项目默认是私有项目，想转公共项目需要审核内容，像我这个文件就不知道为什么审核没过没法显示，属于是国内特色
+- **优点：** 服务器建设在国内，连接顺畅并且速度较快，页面是中文容易上手，免费
+- **缺点：** 建立项目默认是私有项目，想转公共项目需要审核内容，像我这个文件就不知道为什么审核没过没法显示，属于是国内特色
 
 ##### **Gitlab**
 
 <img src="./README.assets/image-20230903223815871.png" alt="image-20230903223815871" style="zoom:50%;" />
 
 - **官网：[The DevSecOps Platform | GitLab](https://about.gitlab.com/)**
-- **优点：**国内直连比Github稳定太多，免费，没有审核
-- **缺点：**~~我其实不太确定~~全英文~~算不算缺点~~，有的时候略卡
+- **优点：** 国内直连比Github稳定太多，免费，没有审核
+- **缺点：** ~~我其实不太确定~~全英文~~算不算缺点~~，有的时候略卡
 
 ##### **Github**
 
 <img src="./README.assets/image-20230903224325977.png" alt="image-20230903224325977" style="zoom:50%;" />
 
 - **官网：[The DevSecOps Platform | GitLab](https://about.gitlab.com/)**
-- **优点：**背靠Microsoft，是全世界最大的代码托管网站，认可度最高，理论上最好使
-- **缺点：**有的时候登录巨慢，有的时候压根没发链接（亲测华科校园网连的最快），上去下个文件还得用motrix等下载工具才能跑到MB/s级别
+- **优点：** 背靠Microsoft，是全世界最大的代码托管网站，认可度最高，理论上最好使
+- **缺点：** 有的时候登录巨慢，**有的时候压根没法链接**（亲测华科校园网连的最快），上去下个文件还得用motrix等下载工具才能跑到MB/s级别
 
 #### 本地git配置
 
@@ -865,8 +877,83 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 #### 远程代码仓库配置
 
 > **P.S. ** 这里通过Github进行演示，其他代码托管网站应该大同小异
+>
+> **P.S.2** Gitee默认是私有库，如果要转换成所有人可见需要自己去设置里调，并且会有审核
 
-//TODO
+首先，我们在Github页面上新建一个代码库，代码库的名字可以随便取，你乐意取什么都行，**没有必要和本地的项目文件夹名字一致**
+
+<img src="./README.assets/image-20230904213410462.png" alt="image-20230904213410462" style="zoom:50%;" />
+
+<img src="./README.assets/1693835308919.png" alt="1693835308919" style="zoom:50%;" />
+
+然后我们应该会进入这个页面：
+
+<img src="./README.assets/image-20230904215101173.png" alt="image-20230904215101173" style="zoom:50%;" />
+
+> Gtihub已经贴心的帮你把需要的所有的命令行指令都打出来了，别的代码托管网站可能也有类似的功能，我这边后续还是基于VSCode的GitLens插件进行操作
+>
+> 命令行还是建议自己学，功能太多了
+
+然后，你复制好你的这个远程库的链接。有两个途径可以看到这个链接
+
+要么是你的页面给你的：
+
+<img src="./README.assets/image-20230904215539715.png" alt="image-20230904215539715" style="zoom:50%;" />
+
+要么是直接在你的地址栏里面：
+
+<img src="./README.assets/image-20230904215651634.png" alt="image-20230904215651634" style="zoom:50%;" />
+
+总之先复制这个链接，这样远程仓库就准备完毕了
+
+#### 连接远程和本地仓库
+
+回到我们的VSCode页面，这次是用的不是GitLens插件了，而是它自带的Git功能
+
+<img src="./README.assets/image-20230904220047350.png" alt="image-20230904220047350" style="zoom:50%;" />
+
+然后回弹出一个弹窗，在这个弹窗里填写你对这个代码托管网站的别名
+
+> 用Github托管代码，别名不一定要写Github，~~只要你自己能看懂~~随便你写什么都行，没有硬性要求
+
+<img src="./README.assets/image-20230904220202256.png" alt="image-20230904220202256" style="zoom:50%;" />
+
+然后接着按照提示粘贴进去你刚刚复制的代码库的地址：
+
+<img src="./README.assets/image-20230904220345610.png" alt="image-20230904220345610" style="zoom:50%;" />
+
+然后按`Enter`键进行确认，它应该会尝试连接远程代码仓库，并且可能会让你输入你的账号和密码
+
+如果连接成功了，就会出现这个样子：
+
+<img src="./README.assets/image-20230904220604222.png" alt="image-20230904220604222" style="zoom:50%;" />
+
+介绍一下Git的三个基本功能：**Push（将本地的版本推送到托管服务器）**，**Pull（将托管服务器的版本下载到本地且直接合并）**，**Fetch（同步信息，不进行合并）**。如果你只是一个人使用，在远程代码仓库里没有更改的话，应该只会使用到**Push**功能，毕竟也没必要**Pull**或者**Fetch**
+
+在VSCode，**Push**常用的方法有两种：
+
+- 其一：用`ctrl+shift+P`快捷键（或者`ctrl+P`后自己在框里打个`>`）调出VSCode的快捷指令界面，然后找到`Git: Push To`命令，然后推送到你想推送到的库
+
+<img src="./README.assets/image-20230904221616082.png" alt="image-20230904221616082" style="zoom:50%;" />
+
+<img src="./README.assets/image-20230904221814992.png" alt="image-20230904221814992" style="zoom:50%;" />
+
+- 其二：在你已经**Push**过一次了之后，GitLens的页面里会自动提醒你**Push**，非常的贴心
+
+<img src="./README.assets/image-20230904222353603.png" alt="image-20230904222353603" style="zoom:50%;" />
+
+这些基本就是Git的基础入门操作了，更进阶一点的~~入门操作~~可以通过百度搜索来学到更多
+
+> **知其所以然的教程推荐：**
+>
+> - [Git 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/git/git-tutorial.html)
+> - [Git【入门】这一篇就够了 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/150837682)
+> - [Git使用教程,最详细，最傻瓜，最浅显，真正手把手教 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/30044692)
+> - [猴子都能懂的GIT入门 | 贝格乐（Backlog）](https://backlog.com/git-tutorial/cn/)
+
+
+
+---
 
 ## Part-4 系统功能优化加强
 
@@ -982,6 +1069,10 @@ wpm install quick uninstaller
 然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的`alt`键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
 
 👆顺带一提，如果不按住修饰键就是移动，按住alt就是创建快捷方式，按住`ctrl`就是复制，具体的见 ***Part-5***
+
+
+
+---
 
 ## Part-5 系统常用快捷键
 
