@@ -549,7 +549,7 @@ apt-get install python
 
 有一说一我真的很羡慕这种简单的安装方法
 
-1. 首先，在你的软件列表里，打开**终端(Terminal)**这个软件
+1. 首先，在你的软件列表里，打开 **终端(Terminal)** 这个软件
 2. 然后，在命令行界面里，输入`gcc`或者`g++`或者`clang`，然后按下回车
 3. 然后它应该会有个弹窗弹出来，提醒你安装一个什么开发软件包
 4. 你点击安装，进度条走完，一切就神奇地结束了
@@ -603,65 +603,109 @@ apt-get install gcc
 
 <img src="./README.assets/image-20230818231316699.png" alt="image-20230818231316699" style="zoom: 33%;" />
 
-#### 安装插件（VSCode）
+#### 安装插件及相关设置（VSCode）
 
 登录完了就可以开始装插件了，这里推荐一些我常用的插件。
+
+##### **Chinese (Simplified)**
 
 <img src="./README.assets/image-20230818232523109.png" alt="image-20230818232523109" style="zoom:33%;" />
 
 简体中文插件，字面意思，把（一部分的）界面语言切换成中文
 
+##### **C/C++ Extension Pack**
+
 <img src="./README.assets/image-20230818232606098.png" alt="image-20230818232606098" style="zoom:33%;" />
 
 C/C++的拓展包，含C/C++，C/C++ Themes，CMake Tools三个插件，基本上必装
+
+##### **C/C++ Snippets**
 
 <img src="./README.assets/image-20230818232730315.png" alt="image-20230818232730315" style="zoom:33%;" />
 
 C/C++的代码模板，提供C/C++插件没提供的一些代码模板
 
+##### **GitLens**
+
 <img src="./README.assets/image-20230818232852422.png" alt="image-20230818232852422" style="zoom:33%;" />
 
 git版本可视化插件，建议先安着，总会用到的
+
+##### **Live Share**
 
 <img src="./README.assets/image-20230818232929963.png" alt="image-20230818232929963" style="zoom:33%;" />
 
 远程召唤一个朋友来替你改代码专用插件Live Share
 
+可能需要自己摸索一下相关的操作，但是使用难度绝对没有你学编程语言高
+
+##### **Prettier**
+
 <img src="./README.assets/image-20230818233013857.png" alt="image-20230818233013857" style="zoom:33%;" />
 
 括号配对着色，可以增强代码可读性
+
+**One Dark Pro**
 
 <img src="./README.assets/image-20230818233053375.png" alt="image-20230818233053375" style="zoom:33%;" />
 
 VSCode上很多人喜欢的第三方主题（为什么啊？）
 
+##### **TabOut**
+
 <img src="./README.assets/image-20230818233132963.png" alt="image-20230818233132963" style="zoom:33%;" />
 
 用Tab键跳出小括号、中括号、大括号、单引号、双引号等成对符号。这个得看个人输入习惯再说用不用（但是我的个人习惯来说这玩意神中神，打败半高方向键的最好方法是放弃半高方向键！）
+
+##### **Markdown相关**
 
 <img src="./README.assets/image-20230818233538379.png" alt="image-20230818233538379" style="zoom:33%;" />
 
 （如果）用VSCode写Markdown时比较好用的几个插件，但是不如直接用Typora或者别的笔记软件
 
-需要注意的是：
+<img src="README.assets/vscode-md-plugin.png" alt="markdown plugin setting" style="zoom:33%;" />
 
-<img src="./README.assets/image-20230818234105185.png" alt="image-20230818234105185" style="zoom:33%;" />
-
-如果你安装了Code Runner，设置里的这三个选项最好打开。
-
-<img src="./README.assets/image-20230818234422384.png" alt="image-20230818234422384" style="zoom:33%;" />
-
-然后就是依照个人需求，看要不要打开VSCode的自动保存功能
-
-![markdown plugin setting](README.assets/vscode-md-plugin.png)
-
-再然后就是下载了Markdown相关插件的话打开这个选项可以自动在旁边打开文件的渲染结果预览，就像这样👇
+下载了Markdown相关插件的话打开这个选项可以自动在旁边打开文件的渲染结果预览，就像这样👇
 
 ![md plugin preview](README.assets/vscode-md-plugin-2.png)
 
 如果你不想开，记住手动唤起预览的快捷键是`Ctrl+Shift+V`，然后可以用vscode自带的分屏达到同样的效果
 
 我的建议是，如果可以的话，还是记忆一下常用的快捷键，会很大程度的提高电脑的使用效率
+
+##### **Code Runner**
+
+<img src="./README.assets/image-20230905213822271.png" alt="image-20230905213822271" style="zoom:33%;" />
+
+Code Runner，一个可以让你快速编译并运行你的源代码文件（好像仅限一个文件）的插件，对于初学者很建议使用
+
+使用方式：
+
+- 通过右上角的运行按钮调起code runner
+
+<img src="./README.assets/image-20230905214247287.png" alt="image-20230905214247287" style="zoom:33%;" />
+
+<img src="./README.assets/image-20230905214403756.png" alt="image-20230905214403756" style="zoom:33%;" />
+
+- 或者直接通过快捷键`ctrl+alt+N`达到同样的效果
+
+需要注意的是：
+
+<img src="./README.assets/image-20230818234105185.png" alt="image-20230818234105185" style="zoom:33%;" />
+
+如果你安装了Code Runner，设置里的这三个选项最好打开。至少得把`Run In Terminal`打开，不然你通过code runner运行代码没有办法使用键盘进行输入
+
+##### **其他设置**
+
+> VSCode设置更改的项目在左侧会有黄色的竖线，很容易辨别；并且设置右上角的筛选器里面也可以直接筛选已更改的项目
+
+<img src="./README.assets/image-20230818234422384.png" alt="image-20230818234422384" style="zoom:33%;" />
+
+依照个人需求，看要不要打开VSCode的自动保存功能
+
+<img src="./README.assets/image-20230905215002768.png" alt="image-20230905215002768" style="zoom:33%;" />
+
+包括对于空白字符的显示策略
 
 #### 其他编辑器推荐
 
@@ -753,7 +797,7 @@ Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCo
 
 Git可以全程通过命令行操作，但是也有很多直观的GUI版本可以使用，但是通常GUI都会缺少一些功能，所以两者基本都会用到
 
-> 关于GIt的GUI软件，Git的官网[Git - GUI Clients (git-scm.com)](https://git-scm.com/downloads/guis)上有非常详细的介绍，你可以在上面选符合你的审美的或者你觉得价格合适的之类的，应该是会不断更新的，如果你选好了就不用往下看了，下面都是我列的我自己喜欢的GIt GUI
+> 关于Git的GUI软件，Git的官网[Git - GUI Clients (git-scm.com)](https://git-scm.com/downloads/guis)上有非常详细的介绍，你可以在上面选符合你的审美的或者你觉得价格合适的之类的，应该是会不断更新的，如果你选好了就不用往下看了，下面都是我列的我自己喜欢的Git GUI
 
 ##### **Vscode的GitLens插件**
 
@@ -847,11 +891,25 @@ Git可以全程通过命令行操作，但是也有很多直观的GUI版本可�
 
 #### 本地git配置
 
-首先，打开你的**终端**（也就是命令行，你用**cmd**，**powershell**都行），然后进行git的全局设置
+首先讲一下Git下载下来安装包后具体的安装过程
+
+> **注：** 因为我电脑上已经安装好了git，卸载再安装会比较繁琐，有一些图片和资料引用自CSDN的[Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833)
+>
+> **注.II：** [Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833) 里面介绍得非常详细，建议大家直接观看该教程，我没办法写得比它还细了
+
+唯一一点值得补充的，就是Git安装时编辑器的部分，不一定非要用vim或者他说的notepad++，实际上你甚至可以使用VSCode作为你的编辑器
+
+但是如果是纯命令行操作的话，你估计还得用vim或者emacs了
+
+---
+
+安装完git后，打开你的**终端**（也就是命令行，你用**cmd**，**powershell**都行），然后进行git的全局设置
+
+> \# 后面是注释，可以不用输入注释的内容
 
 ```shell
-git config --global user.name "YourName" //记得把双引号里的内容换成自己的名字
-git config --global user.email "YourEmail" //记得把双引号里的内容换成自己的邮箱
+git config --global user.name "YourName" # 记得把双引号里的内容换成自己的名字
+git config --global user.email "YourEmail" # 记得把双引号里的内容换成自己的邮箱
 ```
 
 如果输入格式错误命令行会报错，如果输入正确那么命令行**只会卡一下，不会有输出**，还请注意
@@ -864,7 +922,7 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 #### 远程代码仓库配置
 
-> **P.S. ** 这里通过Github进行演示，其他代码托管网站应该大同小异
+> **P.S.** 这里通过Github进行演示，其他代码托管网站应该大同小异
 >
 > **P.S.2** Gitee默认是私有库，如果要转换成所有人可见需要自己去设置里调，并且会有审核
 
@@ -922,7 +980,7 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 
 <img src="./README.assets/image-20230904220047350.png" alt="image-20230904220047350" style="zoom:50%;" />
 
-然后回弹出一个弹窗，在这个弹窗里填写你对这个代码托管网站的别名
+然后会弹出一个弹窗，在这个弹窗里填写你对这个代码托管网站的别名
 
 > 用Github托管代码，别名不一定要写Github，~~只要你自己能看懂~~随便你写什么都行，没有硬性要求
 
@@ -937,6 +995,8 @@ git config --global user.email "YourEmail" //记得把双引号里的内容换�
 如果连接成功了，就会出现这个样子：
 
 <img src="./README.assets/image-20230904220604222.png" alt="image-20230904220604222" style="zoom:50%;" />
+
+> 👆这个人脑子不清醒把Github输入成Gtihub了🙃
 
 介绍一下Git的三个基本功能：**Push（将本地的版本推送到托管服务器）**，**Pull（将托管服务器的版本下载到本地且直接合并）**，**Fetch（同步信息，不进行合并）**。如果你只是一个人使用，在远程代码仓库里没有更改的话，应该只会使用到**Push**功能，毕竟也没必要**Pull**或者**Fetch**
 
@@ -988,7 +1048,7 @@ git init
 
 ```shell
 # Step-1 把所有文件加入待提交清单
-git	add .
+git add .
 # Step-1-optional 把文件名加入追踪，一般不使用，这里你可以跳过这个命令
 git add <文件名>
 # Step-2 提交版本，注释里可以写想写的内容，可以看GUI版本的对应操作进行理解
@@ -998,7 +1058,7 @@ git commit -m "注释"
 ##### 连接远程代码仓库
 
 ``` shell
-# Step-1 别名随便写，你看得懂就行；理论上要登陆账号，建议看情况操作
+# Step-1 别名随便写，你看得懂就行；理论上要登录账号，建议看情况操作
 git remote add <远程仓库别名> %远程仓库%
 # Step-2-optional 把目前的分支改名为main（因为Github默认是main，而有的默认是master），这个是可选项，也就是看你自己的习惯和选择的代码托管平台
 git branch -M main
@@ -1097,11 +1157,15 @@ Quicklook的预览支持薄纱Powertoys，不建议任何人使用Powertoys的�
 - **官网链接：[桌面整理_桌面整理软件_一键桌面整理工具-腾讯电脑管家官网 (qq.com)](https://guanjia.qq.com/product/zmzl/)**
 - **适用平台：Windows**
 
-我的评价是，先别对着腾讯这个名字PTSD了，这个软件是真的挺好的。
+我的评价是，先别对着腾讯这个名字PTSD了，这个软件是真的挺好的，功能晚上，界面美光，**甚至没有广告**！
 
-腾讯做良心软件，不觉得很酷吗，作为一个大学生我觉得太酷了，很符合我对未来科技的想象，科技并带着趣味。
+腾讯做良心软件，不觉得很酷吗，作为一个大学生我觉得太酷了，很符合我对未来科技的想象，科技并带着趣味
 
-不过需要注意的是，那个超级大的 <u>*立即下载*</u> 按钮下载的是腾讯管家全家桶，**只有下面这行小字才是单纯单独这个功能**。
+不过需要注意的是，那个超级大的 <u>*立即下载*</u> 按钮下载的是腾讯管家全家桶，**只有下面这行小字才是单纯单独这个功能**
+
+<img src="./README.assets/image-20230905220500352.png" alt="image-20230905220500352" style="zoom:50%;" />
+
+软件具体的功能就是在桌面上创建这个样子的半透明小格子用于文件分类，支持毛玻璃效果，兼容WallPaper Engine，并且支持文件夹映射（也就是你可以在桌面直接显示别的文件夹的内容），功能我觉得是足够强大的，至少比国外的付费竞品要强
 
 #### **Geek**
 
@@ -1153,7 +1217,7 @@ wpm install quick uninstaller
 
 首先，我们先要知道，你的开始菜单本质是这个文件夹里的快捷方式
 
-(虽然看起来比较抽象，但是你直接复制在文件管理器的陆经理里就能跳转)
+(虽然看起来比较抽象，但是你直接复制在文件管理器的路径里就能跳转)
 
 ```
 %ProgramData%\Microsoft\Windows\Start Menu\Programs
@@ -1169,7 +1233,7 @@ wpm install quick uninstaller
 
 然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的`alt`键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
 
-👆顺带一提，如果不按住修饰键就是移动，按住alt就是创建快捷方式，按住`ctrl`就是复制，具体的见 ***Part-5***
+👆顺带一提，如果不按住修饰键就是移动，按住`alt`就是创建快捷方式，按住`ctrl`就是复制，具体的见 ***Part-5***
 
 
 
