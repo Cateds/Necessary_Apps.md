@@ -707,6 +707,10 @@ Code Runner，一个可以让你快速编译并运行你的源代码文件（好
 
 包括对于空白字符的显示策略
 
+##### 更进阶的VSCode配置教程补充
+
+> - [VScode安装、配置和使用_vscode的安裝與使用_ISmileLi的博客-CSDN博客](https://blog.csdn.net/toby54king/article/details/105453603)  粗略介绍了VSCode的插件配置，但是详细介绍了VSCode里的断点调试功能的json配置文件，如果需要断点调试（并且不想用VIsual Studio一步到位）的同学可以看一下
+
 #### 其他编辑器推荐
 
 ##### **[Sunsetting Atom](https://github.blog/2022-06-08-sunsetting-atom/)**
@@ -1079,7 +1083,7 @@ git commit -m "注释"
 git push -u <远程仓库别名> main 	 
 ```
 
----
+#### 更进阶的Git教程补充
 
 这些基本就是Git的基础入门操作了，更进阶一点的~~入门操作~~可以通过百度搜索来学到更多
 
