@@ -687,7 +687,7 @@ Code Runner，一个可以让你快速编译并运行你的源代码文件（好
 
 <img src="./README.assets/image-20230905214403756.png" alt="image-20230905214403756" style="zoom:33%;" />
 
-- 或者直接通过快捷键`ctrl+alt+N`达到同样的效果
+- 或者直接通过快捷键`Ctrl+alt+N`达到同样的效果
 
 需要注意的是：
 
@@ -897,7 +897,7 @@ Git可以全程通过命令行操作，但是也有很多直观的GUI版本可�
 
 首先讲一下Git下载下来安装包后具体的安装过程
 
-> **注：** 因为我电脑上已经安装好了git，卸载再安装会比较繁琐，有一些图片和资料引用自CSDN的[Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833)
+> **注：** 因为我电脑上已经安装好了git，卸载再安装会比较繁琐，资料引用自CSDN的[Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833)
 >
 > **注.II：** [Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833) 里面介绍得非常详细，建议大家直接观看该教程，我没办法写得比它还细了
 
@@ -1006,7 +1006,7 @@ git config --global user.email "YourEmail" # 记得把双引号里的内容换�
 
 在VSCode，**Push**常用的方法有两种：
 
-- 其一：用`ctrl+shift+P`快捷键（或者`ctrl+P`后自己在框里打个`>`）调出VSCode的快捷指令界面，然后找到`Git: Push To`命令，然后推送到你想推送到的库
+- 其一：用`Ctrl+Shift+P`快捷键（或者`Ctrl+P`后自己在框里打个`>`）调出VSCode的快捷指令界面，然后找到`Git: Push To`命令，然后推送到你想推送到的库
 
 <img src="./README.assets/image-20230904221616082.png" alt="image-20230904221616082" style="zoom:50%;" />
 
@@ -1235,9 +1235,9 @@ wpm install quick uninstaller
 
 所以，你先把你需要用的免安装软件放在一个比较顺眼的位置
 
-然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的`alt`键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
+然后创建一个快捷方式移动到我们说的开始菜单文件夹里面。有一个简便一点的方式，就是按住键盘上的`Alt`键不放，然后把exe文件拖到开始菜单里面，这样它自动创建的就是快捷方式
 
-👆顺带一提，如果不按住修饰键就是移动，按住`alt`就是创建快捷方式，按住`ctrl`就是复制，具体的见 ***Part-5***
+👆顺带一提，如果不按住修饰键就是移动，按住`Alt`就是创建快捷方式，按住`Ctrl`就是复制，具体的见 ***Part-5***
 
 
 
@@ -1245,7 +1245,7 @@ wpm install quick uninstaller
 
 ## Part-5 系统常用快捷键整理
 
-### 与鼠标协同的快捷键
+### 鼠标协同
 
 在使用电脑的过程中，大多数时候用的还是鼠标，所以先盘点一下与鼠标协同的快捷键。
 
@@ -1255,11 +1255,11 @@ wpm install quick uninstaller
 
 <img src="./README.assets/image-20230829161846749.png" alt="image-20230829161846749" style="zoom:33%;" />
 
-我们选择了第一个文件，如果不按修饰键（实际上，按住`alt`也一样），就是这个样子：
+我们选择了第一个文件，如果不按修饰键（实际上，按住`Alt`也一样），就是这个样子：
 
 <img src="./README.assets/tutieshi_640x360_2s.gif" alt="tutieshi_640x360_2s" style="zoom:80%;" />
 
-接下来是一点不一样的，按住`ctrl`键再点击别的文件，相当于添加选择（或者取消已经选择的）文件：
+接下来是一点不一样的，按住`Ctrl`键再点击别的文件，相当于添加选择（或者取消已经选择的）文件：
 
 <img src="./README.assets/tutieshi_640x360_3s.gif" alt="tutieshi_640x360_3s" style="zoom:80%;" />
 
@@ -1267,17 +1267,17 @@ wpm install quick uninstaller
 
 <img src="./README.assets/tutieshi_640x360_7s.gif" alt="tutieshi_640x360_7s" style="zoom:80%;" />
 
-而与之不同的是，如果你按住`shift`修饰键，则是选择两次点击之间的所有文件：
+而与之不同的是，如果你按住`Shift`修饰键，则是选择两次点击之间的所有文件：
 
 <img src="./README.assets/tutieshi_640x360_7s%20(1).gif" alt="tutieshi_640x360_7s (1)" style="zoom:80%;" />
 
 需要提醒的是，一般快捷键是具有泛用性的，也就是说在不同的软件里面，有的快捷键的效果可能有相同的定义，我就以这个鼠标修饰键为例：
 
-- 在浏览器里，按住`ctrl`也会有网页多选的效果：
+- 在浏览器里，按住`Ctrl`也会有网页多选的效果：
 
 <img src="./README.assets/tutieshi_640x1113_14s.gif" alt="tutieshi_640x1113_14s" style="zoom: 33%;" />
 
-- 同理，在浏览器里，按住`shift`也会有范围选择的效果：
+- 同理，在浏览器里，按住`Shift`也会有范围选择的效果：
 
 <img src="./README.assets/tutieshi_640x1113_6s.gif" alt="tutieshi_640x1113_6s" style="zoom:33%;" />
 
@@ -1293,14 +1293,160 @@ wpm install quick uninstaller
 
 （当然，如果是从外部存储设备往内部存储拖动文件的话默认是复制，我们这里先不计较这些细节）
 
-但是，如果有了修饰键，结果会有改变（在这里`shift`修饰键没有实际作用）
+但是，如果有了修饰键，结果会有改变（在这里`Shift`修饰键没有实际作用）
 
-如果按住了`ctrl`，那么文件的移动操作会变成文件的复制操作：
+如果按住了`Ctrl`，那么文件的移动操作会变成文件的复制操作：
 
 <img src="./README.assets/tutieshi_640x425_7s.gif" alt="tutieshi_640x425_7s" style="zoom: 67%;" />
 
-如果按住了`alt`，那么文件的移动操作会变成在指定目录创建选中文件的快捷方式：
+如果按住了`Alt`，那么文件的移动操作会变成在指定目录创建选中文件的快捷方式：
 
 <img src="./README.assets/tutieshi_640x425_6s.gif" alt="tutieshi_640x425_6s" style="zoom: 67%;" />
 
-【尚未完结 TODO】
+### 文字光标
+
+> **[@2023-9-10]** 下面内容的空行是为了给gif留出位置，至于对应gif的制作，快了快了，放过一个大一上高四的可怜人罢
+>
+> **注：** Mac端和这里的逻辑是不一定一样的，比如`Command`修饰键的很大一部分功能都是和Windows的`Ctrl`不一样的，但是`Shift`的功能惊人的一致。所以，对于使用MacOS的同学，我的建议是自己动手试试~~（然后给没钱买Mac的作者贡献几个Issue或者gif）~~
+
+#### 光标控制
+
+众所周知，我们可以用键盘控制我们光标的移动，也就是我们的上下左右键。那么，通过上下左右键（以及更进阶的光标定位键），有什么常用的快捷键呢？在讨论这个问题之前，我们先来看一下通常会被我们忽略的这四个键：`Home`， `End`，`Pg Up (Page Up)`，`Pg Dn (Page Down)` 。它们分别是这样的效果：
+
+- `Home` 跳转到这一行文字的开头
+
+// To Insert Image
+
+- `End` 跳转到这一行的末尾
+
+// To Insert Image
+
+- `Pg Up` 和 `Pg Dn` 分别是到上一页和下一页（至于是视图上的“页”还是文档上的“页”依据应用而定）
+
+// To Insert Image
+
+#### `Ctrl`
+
+这几个键和方向键构成了我们用键盘移动光标的基本方式，同时，`Ctrl`键也给光标移动带来了不同的定义
+
+- `Ctrl`与左右方向键结合，在Windows系统上定义是 **跳转到下一个词语/词组** ，至于什么是词语或者词组，得看微软是怎么想的。这个快捷键的通用性较高，基本没有功能定义不一样的软件
+
+// To Insert Image
+
+- `Ctrl`与上下方向键结合的定义不唯一，比如**在Word里是跳转到上/下一自然段**，而**在VSCode里变成了上下移动页面**
+
+// To Insert Image
+
+- `Ctrl`与`home`或`end`结合时的功能定义较为唯一：移到文件头部/文件尾部
+
+// To Insert Image
+
+- `Ctrl`与`Pg Up`或`Pg Dn`结合的功能在不同的应用里有不同的定义，在**Word里是和`Ctrl+home/end`一致的**，但是**在VSCode中就成了和`Ctrl+tab`类似的更换标签页**了
+
+// To Insert Image
+
+#### `Shift`
+
+`Shift`键构成了另一种文字光标的交互方式：**选中文字**
+
+- 按住`Shift`后移动光标，可以**选中从光标初始位置到光标现在位置之间的所有内容**（没错，就是按住`Shift`点鼠标的逻辑，所以不妨把`Shift`直接理解成**范围选中**的含义）
+
+// To Insert Image
+
+- 需要补充的是，`Shift`的修饰效果**和光标的移动方式没有任何关系**，也就是说，你甚至可以用**`Ctrl`组合键甚至鼠标点击**来达到目的
+
+// To Insert Image
+
+- 还需要补充的是，**它的光标位置可以是概念性或者说不可见的**，也就是，对于实际是HTML的网页，即使你点击文字后看不到光标在闪，也可以达到范围选中的效果
+
+// To Insert Image
+
+#### `Alt`
+
+`Alt`键因为干得主要是键盘操控菜单（Office软件特性）的功能，在Office里对光标没有明确的作用，所以各个软件基本没有达成共识，不同的软件功能定义不一样
+
+- 对于Office系软件，`Alt`的功能是通过键盘快速操控菜单
+
+// To Insert Image
+
+- 对于VSCode，`Alt`加左右键是**VSCode的函数跳转功能**（你要用到自然会学），加上下键则是**移动光标所在行移动**，只能说功能很炫酷
+
+// To Insert Image
+
+- 以此类比一下，`Alt`的功能定义是具有多样性的特异性的，最好的了解的方式是自己试一下
+
+// To Insert Image
+
+### 删除文字
+
+#### `Backspace`和`Delete`
+
+`Backspace`和`Delete`都是删除文件的按键，他们最本质的区别，就是`Backspace`是**删除光标前的字符**，而`Delete`是**删除光标后的字符**，再常用一点的，就是`Delete`还减负了Windows系统的文件删除快捷键的作用
+
+如果我模糊的记忆没有记错的话，Mac的键盘没有Delete，是通过`Fn+Backspace`来达到`Delete`的功能
+
+
+
+#### `Ctrl`修饰键
+
+这里`Ctrl`的定义和文字光标部分是相似的——也就是作用于词语/词组。按住`Ctrl`再按下`Backspace`或者`Delete`，删除就会按照词组进行删除（而不是一个字一个字地删），在某些场合比较有用
+
+顺带一提：在MacOS里`Command+Backspace`的定义是不同于Office的——这个我没记错的话是**删除从光标到行首是所有文字**
+
+
+
+#### `Alt`修饰键
+
+**可能是Office的特性：** 在Word里，`Alt+Backspace`的作用是撤销上一次删除
+
+我的评价是不如`Ctrl+Z`符合直觉
+
+
+
+### 伟大的`Tab`键
+
+`Tab`是一个很典型的在不同应用之间具有通用的语义的一个快捷键，值得单独开一章进行详细介绍
+
+#### `Tab`自身
+
+##### 网页风格的Tab：下一个要素
+
+// TODO
+
+##### 文字风格的Tab：缩进
+
+// TODO
+
+#### `Tab`快捷键
+
+##### `Alt+Tab`
+
+// TODO
+
+##### `Win+Tab`
+
+// TODO
+
+##### `Ctrl+Tab`
+
+// TODO
+
+### `Shift`的快捷键逻辑
+
+// TODO
+
+### `Ctrl`的快捷键逻辑
+
+// TODO
+
+### `Alt`不好评价
+
+// TODO
+
+### 常见的通用定义快捷键
+
+// TODO
+
+---
+
+【尚未完结，持续更新中】
