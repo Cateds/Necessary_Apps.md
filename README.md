@@ -986,6 +986,14 @@ git config --global user.email "YourEmail" # 记得把双引号里的内容换�
 
 虽然可以直接用命令行进行`git init`操作，但是得先使用`cd`命令，所以我的建议是**直接用VSCode打开这个文件夹**，然后使用VSCode的初始化代码库：
 
+<img src="./README.assets/image-20230923161021940.png" alt="image-20230923161021940" style="zoom: 33%;" />
+
+> **注意：** 
+>
+> 要用这种方式👆在VSCode中打开你的项目文件夹，这样才能在初始化git代码仓库的时候初始化正确的位置！
+>
+> 不要随便打开一个文件以为自己打开文件夹了！
+
 <img src="./README.assets/image-20230903225644510.png" alt="image-20230903225644510" style="zoom: 33%;" />
 
 这样就初始化了这个代码仓库（本地），我们先推送它的第一个版本：
