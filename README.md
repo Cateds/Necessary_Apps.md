@@ -126,6 +126,14 @@ Steam游戏快速启动插件（这个utools也有）
 
 以及强迫症最喜欢的每次开启自动回中
 
+> [Update@2024-9-1]
+> 
+> 但是值得一提的是，现在并不是使用Wox的良好时机。
+> 
+> 首先这个软件的软件索引还存在部分bug，比如它并不能搜索到我的Keil uVision；
+> 
+> 其次，目前Wox正在重构成Wox v2，上次更新预览版还是23年10月，我的建议是再等等。
+
 #### **Utools**
 
 <img src="./README.assets/image-20230821043849904.png" alt="image-20230821043849904" style="zoom:25%;" />
@@ -160,8 +168,6 @@ Powertoys可以直接在微软应用商店下载，里面有很多功能，但�
 
 > 对于Powertoys的其他功能后文有提及及介绍，具体见 ***Part-4-额外功能-Powertoys***
 
-
-
 ---
 
 ## Part-2 文件上传和文件下载
@@ -171,6 +177,14 @@ Powertoys可以直接在微软应用商店下载，里面有很多功能，但�
 #### 手机/平板和电脑
 
 如果是国产的安卓（及其类似物）品牌，可以去下载手机品牌对应的电脑软件，
+
+> [Update@2024-9-1]
+> 
+> 配置前注意,破解的软件可能会存在随机且令人费解的功能缺失或者驱动不通用
+>
+> 如无刚需并不建议在电脑上强行安装对应的手机交互软件
+>
+> 只是传输文件的话还请使用后文提及的LocalSend等类似物
 
 比如小米的 **[小米妙享](https://www.bilibili.com/video/BV1qD4y1B7YJ)**（需要在b站上找机型破解）<img src="./README.assets/image-20230821011243799.png" alt="image-20230821011243799" style="zoom: 25%;" />
 
@@ -204,6 +218,10 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 
 <img src="./README.assets/Screenshot_2023-08-21-06-03-21-806_com.miui.home-.jpg" alt="new ducument" style="zoom:33%;" />
 
+> [Update@2024-9-1]
+> 
+> 现在不建议使用该软件,LocalSend几乎是其完全上位
+
 ### 2. 给别人传输一些文件
 
 有的时候需要给别人传输一些文件，我们一般会有这么几种方式：
@@ -227,6 +245,28 @@ vivo的 **[vivo办公套件](https://quantumkit.vivo.com/#/)**<img src="./README
 #### 互传联盟/华为分享/Airdrop
 
 参考 ***Part-2-1.*** 的内容
+
+#### 追加：局域网内的全平台通用方案
+
+##### [LocalSend](https://localsend.org/zh-CN/download)
+
+![1725197183045](image/README/1725197183045.png)
+
+LocalSend是一个全平台的文件传输软件，支持MacOS，Windows，Android，iOS甚至Linux。它可以让局域网内的设备相互搜索并相互传输文件和文字内容
+
+![1725197353005](image/README/1725197353005.png)
+
+只要两个设备在同一个局域网内就可以相互传输，链接手机热点也可以使用，但是并不能在两个设备都在校园网下的情况下搜索到，这个还需要注意。
+
+因为这个软件可以在不经过公网服务器的情况下进行文件传输，或为在Windows和苹果设备之间快速传输文件的良好选择
+
+##### [Flix](https://flix.center/)
+
+![1725197592382](image/README/1725197592382.png)
+
+竞争力和LocalSend类似的软件，具有同样的特点，不过这个优化了操作界面，可以更轻松地看到发送历史，并且把界面优化成了对话框的形式
+
+但是LocalSend开源，这个好像不开源，见仁见智吧
 
 ### 3. 从网上下载文件
 
@@ -545,7 +585,13 @@ apt-get install python
 
 <img src="./README.assets/image-20230818224900571.png" alt="image-20230818224900571" style="zoom:33%;" />
 
-##### 如果你用的是非M系列处理器的MacOS设备
+##### 如果你用的是MacOS设备
+
+> [Update@2024-9-1]
+>
+> 现在M系列芯片可以在命令行里输入gcc来安装c/c++编译器了
+>
+> 不过众所周知苹果的gcc其实是套皮的clang
 
 有一说一我真的很羡慕这种简单的安装方法
 
@@ -555,16 +601,6 @@ apt-get install python
 4. 你点击安装，进度条走完，一切就神奇地结束了
 
 理论上和你下载苹果的**Xcode**一个效果
-
-##### 如果你用的是M系列的苹果MacOS设备
-
-亲测对于M系列处理器的设备上面的方法无效:)，目前还没搞到可以供我实验的设备
-
-所以复杂一点的方法是和Windows一样去官网上翻自己电脑对应的安装包，记得找Universal版本或者arm64版本的
-
-简单一点的方法是打开你的**App Store**，搜索并下载Xcode，这样就会有附带的clang组件了
-
-我知道你想说什么，这个叫当代买椟还珠
 
 ##### 如果你用的是Linux
 
@@ -669,13 +705,17 @@ git版本可视化插件，建议先安着，总会用到的
 
 <img src="./README.assets/image-20230818233053375.png" alt="image-20230818233053375" style="zoom:33%;" />
 
-VSCode上很多人喜欢的第三方主题（为什么啊？）
+VSCode上很多人喜欢的第三方主题
+
+比如我,One Dark Pro Darker永远的神
 
 ##### **TabOut**
 
 <img src="./README.assets/image-20230818233132963.png" alt="image-20230818233132963" style="zoom:33%;" />
 
-用Tab键跳出小括号、中括号、大括号、单引号、双引号等成对符号。这个得看个人输入习惯再说用不用（但是我的个人习惯来说这玩意神中神，打败半高方向键的最好方法是放弃半高方向键！）
+用Tab键跳出小括号、中括号、大括号、单引号、双引号等成对符号。这个得看个人输入习惯再说用不用
+
+用这个有个后果就是在有的地方你想要输入tab的时候它反而帮你自动跳出括号了,还需要自己斟酌一下
 
 ##### **Markdown相关**
 
@@ -718,6 +758,10 @@ Code Runner，一个可以让你快速编译并运行你的源代码文件（好
 ##### **其他设置**
 
 > VSCode设置更改的项目在左侧会有黄色的竖线，很容易辨别；并且设置右上角的筛选器里面也可以直接筛选已更改的项目
+>
+> [Update@2024-9-1]
+> 
+> 注:黄色竖线是默认主题,不同主题的颜色会有不同
 
 <img src="./README.assets/image-20230818234422384.png" alt="image-20230818234422384" style="zoom:33%;" />
 
@@ -743,8 +787,6 @@ Code Runner，一个可以让你快速编译并运行你的源代码文件（好
 Github是微软的，Atom是Github旗下的，VSCode是Microsoft旗下的，VSCode和Atom都基于Electron框架开发，并且都有差不多的功能，甚至是差不多的主题
 
 🤔🤔🤔🤔🤔
-
-~~虽然Atom的Pre-release说要支持Github Copilot，但是VSCode没理由没有~~
 
 ##### **[Sublime Text](https://www.sublimetext.com/)**
 
@@ -1478,3 +1520,7 @@ wpm install quick uninstaller
 ---
 
 【尚未完结，持续更新中】
+
+【真持续更新吗】
+
+【毕业前能更新完就是胜利】
