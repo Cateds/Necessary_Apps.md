@@ -1218,6 +1218,8 @@ git push -u <远程仓库别名> main
 
 可以考虑下一个，给自己增加一点电脑使用需求
 
+并且Powertoys的功能还在持续更新中，目前还有很多很实用的功能，还是建议备用一个
+
 #### **Quicklook**
 
 ![Alt text](README.assets/quicklook.png)
